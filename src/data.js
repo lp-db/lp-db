@@ -1069,7 +1069,7 @@ export default [
     'id' : 'dba814f9-6758-477c-9c84-c7dbced8d7f4',
     'tags' : ['Windows', 'Proxy']
   }, {
-    'name' : '"Super Secret" Loader',
+    'name' : 'Super Secret Loader',
     'id' : '43c73219-ea40-4fad-a4f7-2b8eab1149f9',
     'tags' : ['Windows', 'Loader']
   }, {
