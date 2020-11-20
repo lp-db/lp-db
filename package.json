@@ -14,7 +14,7 @@
   },
   "scripts": {
     "serve": "parcel index.html",
-    "build": "parcel build --no-source-maps index.html"
+    "build": "parcel build --public-url ./lp-db/ --no-source-maps index.html"
   },
   "author": "",
   "license": "ISC"
