@@ -1081,5 +1081,9 @@ export default [
     'id' : '7ae930ce-b53b-4f0f-a7cb-8663ae45e43b',
     'tags' : ['Windows', 'Stealer'],
     'malpedia' : 'win.raccoon'
+  }, {
+    'name' : 'VKeylogger',
+    'id' : 'c21ca102-36fa-4737-913b-563b70d5a480',
+    'tags' : ['Windows', 'Keylogger']
   }
 ]
