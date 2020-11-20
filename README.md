@@ -12,5 +12,5 @@ It's possible that some login pages don't correspond to their description or the
 
 - [misterch0c](https://twitter.com/eatmych0c/) for the original idea with [what_is_this_c2](https://github.com/misterch0c/what_is_this_c2)
 - C2 Trackers: [benkow](http://benkow.cc/passwords.php), [ViriBack](http://tracker.viriback.com) and [ThreatShare](https://threatshare.io/malware)
-- [urlscan.io](https://urlscan.io/) submitors
+- [urlscan.io](https://urlscan.io/) submitters
 - [Hedroed](https://github.com/Hedroed) for the web app
