@@ -7,10 +7,11 @@
                 type="button"
                 data-toggle="collapse"
                 data-target="#navb"
+                @click="collapseNavbar()"
             >
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navb">
+            <div id="navb" class="collapse navbar-collapse" :class="{ show: navbarCollapsed }">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item search">
                         <input
@@ -104,6 +105,7 @@ export default {
             searchText: '',
             lightboxVisible: false,
             clickedIndex: 0,
+            navbarCollapsed: false
         }
     },
     mounted() {
@@ -161,6 +163,9 @@ export default {
             this.clickedIndex = idx
             this.lightboxVisible = true
         },
+        collapseNavbar() {
+            this.navbarCollapsed = !this.navbarCollapsed
+        }
     }
 }
 </script>
