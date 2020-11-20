@@ -6,7 +6,7 @@ Login Pages Database forms a knowledge base on login pages related to malicious 
 
 This library uses [urlscan.io](https://urlscan.io/), allowing to have screenshots of unified size and to have access to the DOM of the pages. In addition, each login page has tags to better define their use cases. Whenever possible, a [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) link is also present.
 
-It's possible that some login pages don't correspond to their description or their tags, these data are provided on best effort. In this case, or in order to complete the database, do not hesitate to open an issue/pull request. You can also contact me on [Tweeter](https://twitter.com/DrStache_).
+It's possible that some login pages don't correspond to their description or their tags, these data are provided on best effort. In this case, or in order to complete the database, do not hesitate to open an issue/pull request. You can also contact me on [Twitter](https://twitter.com/DrStache_).
 
 ## Acknowledgements
 
