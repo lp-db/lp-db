@@ -75,10 +75,10 @@
                 <span class="text-muted">
                     Login Pages Database -
                     <a
-                        href="https://twitter.com/DrStache_"
+                        href="https://github.com/lp-db/lp-db"
                         target="blank"
                         rel="noreferrer noopener"
-                    >DrStache</a>
+                    >GitHub</a>
                 </span>
             </div>
         </footer>
