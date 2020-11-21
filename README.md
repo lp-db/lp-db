@@ -27,7 +27,7 @@ It's possible that some login pages don't correspond to their description or the
 ## Acknowledgements
 
 - [misterch0c](https://twitter.com/eatmych0c/) for the original idea with [what_is_this_c2](https://github.com/misterch0c/what_is_this_c2)
-- C2 Trackers: [benkow](http://benkow.cc/passwords.php), [ViriBack](http://tracker.viriback.com) and [ThreatShare](https://threatshare.io/malware)
+- C2 Trackers: [benkow](http://benkow.cc/passwords.php), [CyberCrime-Tracker](https://cybercrime-tracker.net), [ThreatShare](https://threatshare.io/malware) and [ViriBack](http://tracker.viriback.com)
 - Everyone who's sharing C2 panels on Twitter
 - [urlscan.io](https://urlscan.io/) submitters
 - [Hedroed](https://github.com/Hedroed) for the web app
