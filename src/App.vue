@@ -21,6 +21,13 @@
                             v-model="searchText"
                             placeholder="Search"
                         />
+                        <input
+                            class="form-control mr-sm-2"
+                            type="file"
+                            id="searchFile"
+                            @change="searchFile"
+                            placeholder="File"
+                        />
                     </li>
                 </ul>
             </div>
@@ -91,6 +98,11 @@
 <script>
 import LoginPage from './components/LoginPage.vue'
 import Lightbox from './components/Lightbox.vue'
+
+import Blockhash from './blockhash'
+window.Blockhash = Blockhash
+
+const bh = new Blockhash
 
 export default {
     name: 'App',
@@ -171,6 +183,15 @@ export default {
         },
         collapseNavbar() {
             this.navbarCollapsed = !this.navbarCollapsed
+        },
+        searchFile(event) {
+            if(!event.target || !event.target.files || event.target.files.length  == 0)
+                return
+
+            bh.blockhashFromFile(event.target.files[0])
+            .then(hash => {
+                console.log("Hash is", hash)
+            })
         }
     }
 }
