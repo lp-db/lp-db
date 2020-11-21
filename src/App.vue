@@ -21,13 +21,18 @@
                             v-model="searchText"
                             placeholder="Search"
                         />
-                        <input
-                            class="form-control mr-sm-2"
-                            type="file"
-                            id="searchFile"
-                            @change="searchFile"
-                            placeholder="File"
-                        />
+                        <div class="image-search">
+                            <label for="searchFile">
+                                <i class="icon-picture"></i>
+                            </label>
+                            <input
+                                class="form-control mr-sm-2"
+                                type="file"
+                                id="searchFile"
+                                @change="searchFile"
+                                placeholder="File"
+                            />
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -197,7 +202,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 html, body {
     height: 100%;
 }
@@ -206,6 +211,32 @@ html, body {
     min-height: 100%;
     position: relative;
     padding-bottom: 100px;
+}
+
+.nav-item.search {
+    display: flex;
+}
+
+.image-search {
+    label {
+        margin: 0;
+    }
+
+    input {
+        display: none;
+        flex-direction: row;
+    }
+
+    i {
+        cursor: pointer;
+        color: #9aa1a8;
+        font-size: 26px;
+        transition: color 0.1s;
+
+        &:hover {
+            color: #dae0e7;
+        }
+    }
 }
 
 label {
