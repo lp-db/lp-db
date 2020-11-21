@@ -98,7 +98,7 @@ export default {
                     case ' ':
                         return e.preventDefault()
                     case 'Escape':
-                        return this.hide()
+                        return this.$emit('close')
                 }
             }
         },
