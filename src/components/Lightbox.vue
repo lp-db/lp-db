@@ -203,24 +203,8 @@ export default {
 }
 
 @media screen and (max-width: 500px) {
-    .lightbox__element {
-        position: relative;
-    }
-
-    .lightbox__arrow {
-        position: absolute;
-        padding: 0 2rem;
-        height: 100%;
-    }
-
-    .lightbox__arrow--right {
-        right: 0;
-        background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3));
-    }
-
-    .lightbox__arrow--left {
-        left: 0;
-        background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.3));
+    .lightbox {
+        display: none;
     }
 }
 </style>

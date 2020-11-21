@@ -159,6 +159,12 @@ export default {
             }
         },
         showPage(pageId) {
+            // Exit if viewport too small (< 500px)
+            const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+            if(vw < 500) {
+                return
+            }
+
             const idx = this.pages.findIndex(({id}) => id === pageId)
             this.clickedIndex = idx
             this.lightboxVisible = true
