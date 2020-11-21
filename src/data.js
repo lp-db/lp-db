@@ -1115,5 +1115,13 @@ export default [
     'name' : 'StormKitty',
     'id' : '94de1b8d-4b3f-4e21-b45f-1a2be95f4b1f',
     'tags' : ['Windows', 'Stealer', 'Clipper', 'Keylogger']
+  }, {
+    'name' : 'Covenant',
+    'id' : 'd21694d5-99eb-4f9d-b0d8-d1a88bc43a91',
+    'tags' : ['Windows', 'Linux', 'MacOS']
+  }, {
+    'name' : 'Metasploit',
+    'id' : '2752e762-8a71-444c-ab1e-e2628c011a86',
+    'tags' : ['Windows', 'Linux', 'MacOS', 'Android']
   }
 ]
