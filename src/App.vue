@@ -84,7 +84,7 @@
             </div>
         </footer>
 
-        <lightbox :images="pages.map(({id}) => `https://urlscan.io/screenshots/${id}.png`)" :openAtIndex="clickedIndex" :visible="lightboxVisible" @close="lightboxVisible = false"/>
+        <lightbox :images="visiblePages.map(({id}) => `https://urlscan.io/screenshots/${id}.png`)" :openAtIndex="clickedIndex" :visible="lightboxVisible" @close="lightboxVisible = false"/>
     </div>
 </template>
 
@@ -165,7 +165,7 @@ export default {
                 return
             }
 
-            const idx = this.pages.findIndex(({id}) => id === pageId)
+            const idx = this.visiblePages.findIndex(({id}) => id === pageId)
             this.clickedIndex = idx
             this.lightboxVisible = true
         },
