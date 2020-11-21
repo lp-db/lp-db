@@ -1123,5 +1123,9 @@ export default [
     'name' : 'Metasploit',
     'id' : '2752e762-8a71-444c-ab1e-e2628c011a86',
     'tags' : ['Windows', 'Linux', 'MacOS', 'Android']
+  }, {
+    'name' : 'Raccoon 3000',
+    'id' : 'd045c09d-ae03-4c5a-81bc-242202c2e361',
+    'tags' : ['Windows']
   }
 ]
