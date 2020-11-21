@@ -270,7 +270,7 @@ export default [
     'tags' : ['Windows', 'Stealer']
   }, {
     'name' : 'Loader JS',
-    'id' : '620eec90-2a7c-4f58-ae5a-451b694d9b47',
+    'id' : '96f6ca4e-d0cc-4c3a-92a8-392a6cd498a8',
     'tags' : ['Windows', 'Loader']
   }, {
     'name' : 'N0F1l3 / 1ms0rry',
@@ -376,6 +376,11 @@ export default [
   }, {
     'name' : 'BlackNet / CoronaVirus',
     'id' : '68789e6d-c557-4301-ba1c-aa8f2bae2e2e',
+    'tags' : ['Windows', 'Stealer'],
+    'malpedia' : 'win.blacknet_rat'
+  }, {
+    'name' : 'BlackNet',
+    'id' : 'f173575e-7eda-4bfc-ac7c-c74d3c1d6569',
     'tags' : ['Windows', 'Stealer'],
     'malpedia' : 'win.blacknet_rat'
   }, {
@@ -644,6 +649,11 @@ export default [
     'tags' : ['Windows', 'Stealer'],
     'malpedia' : 'win.predator'
   }, {
+    'name' : 'PredatorTheThief',
+    'id' : '94d39996-9594-4068-8fae-5316e89ebb12',
+    'tags' : ['Windows', 'Stealer'],
+    'malpedia' : 'win.predator'
+  }, {
     'name' : 'ProtonBot',
     'id' : 'cb921c37-24b5-4fee-a6fa-63977632a758',
     'tags' : ['Windows', 'Loader', 'DDoS', 'Clipper'],
@@ -743,10 +753,6 @@ export default [
     'id' : '377f0370-b88a-4a8f-bb2d-adecd12e97c9',
     'tags' : ['Phishing']
   }, {
-    'name' : '16Shop',
-    'id' : '80035071-2bf0-46d3-b27a-d3b5b1454436',
-    'tags' : ['Phishing']
-  }, {
     'name' : 'Apple FMI-remover',
     'id' : '6ccf4e73-018d-4d6b-868b-03be41ddf9de',
     'tags' : ['Phishing']
@@ -795,8 +801,16 @@ export default [
     'id' : '7f453b75-90dc-4eb8-b6ef-dbb3025f4802',
     'tags' : ['Phishing']
   }, {
-    'name' : 'iPanelPro',
+    'name' : 'iPanel Pro',
     'id' : '05b2cdbe-d59e-423f-bb2f-aad3b14cdc63',
+    'tags' : ['Phishing']
+  }, {
+    'name' : 'iPanel Pro',
+    'id' : '1e71edb0-b24d-428c-b1af-66a9d3abe9c9',
+    'tags' : ['Phishing']
+  }, {
+    'name' : 'i-Team Shortener',
+    'id' : 'dbe71ca8-587a-4954-82e8-3bc8241ced51',
     'tags' : ['Phishing']
   }, {
     'name' : 'OFFiT / iTech',
@@ -1085,5 +1099,21 @@ export default [
     'name' : 'VKeylogger',
     'id' : 'c21ca102-36fa-4737-913b-563b70d5a480',
     'tags' : ['Windows', 'Keylogger']
+  }, {
+    'name' : 'ATSEngine',
+    'id' : '0b3b1ea2-8d46-4832-aebb-6975f9887e3b',
+    'tags' : ['Windows', 'Webinjects']
+  }, {
+    'name' : 'Chase SPOX',
+    'id' : '92205653-3078-493d-9e42-1704ebcb8476',
+    'tags' : ['Phishing']
+  }, {
+    'name' : 'Stuffer',
+    'id' : 'beb181a5-8ef0-49bd-a78c-4238d37b9759',
+    'tags' : []
+  }, {
+    'name' : 'StormKitty',
+    'id' : '94de1b8d-4b3f-4e21-b45f-1a2be95f4b1f',
+    'tags' : ['Windows', 'Stealer', 'Clipper', 'Keylogger']
   }
 ]
