@@ -9,11 +9,11 @@ export default [
     'id' : 'e3a47170-c9c9-4926-a9b9-7e2389b439b5',
     'tags' : ['Windows', 'Stealer']
   }, {
-    'name' : 'Acrux' ,   
+    'name' : 'Acrux' ,
     'id' : 'a660fd75-4314-4659-a029-cea591ae51e5',
     'tags' : ['Windows', 'Miner', 'Stealer']
   }, {
-    'name' : 'Acrux' ,   
+    'name' : 'Acrux' ,
     'id' : '0d3ed915-9f2c-472a-ab60-5a9e00db277b',
     'tags' : ['Windows', 'Miner', 'Stealer']
   }, {
@@ -269,7 +269,7 @@ export default [
     'id' : '1b0c8ec6-db8d-40a9-866a-042bd0ede095',
     'tags' : ['Windows', 'Stealer']
   }, {
-    'name' : 'Loader JS',
+    'name' : 'LoaderJS',
     'id' : '96f6ca4e-d0cc-4c3a-92a8-392a6cd498a8',
     'tags' : ['Windows', 'Loader']
   }, {
