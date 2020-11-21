@@ -1,9 +1,9 @@
 <template>
     <div class="col-md-4 mb-1">
-        <div class="login-page">
-            <img class="cover rounded" loading="lazy" :src="`https://urlscan.io/screenshots/${id}.png`" />
+        <div class="login-page rounded">
+            <img class="cover" loading="lazy" :src="`https://urlscan.io/screenshots/${id}.png`" />
             <div class="content" @click="$emit('click', id)">
-                <div class="hover rounded">
+                <div class="hover">
                     <h4 class="text-white text-decoration-none">{{ name }}</h4>
                     <div class="tags">
                         <span v-for="t of tags" :key="t" class="badge badge-secondary">
