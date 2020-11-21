@@ -323,7 +323,7 @@ export default [
   }, {
     'name' : 'Tables',
     'id' : '0ef872fc-d1ca-4350-b7fe-104cf7e8ae1f',
-    'tags' : ['Windows', 'Webinjects']
+    'tags' : ['Windows', 'Webinject']
   }, {
     'name' : 'Taurus',
     'id' : '6c2ada1e-c5ba-4582-86b0-4db0f1c7ec4d',
@@ -947,11 +947,11 @@ export default [
   }, {
     'name' : 'Multi Locker',
     'id' : 'e6a4f048-faa5-480b-b5e6-86b9c1c8b3e4',
-    'tags' : ['Locker']
+    'tags' : ['Web Browser', 'Locker']
   }, {
     'name' : 'Multi Locker',
     'id' : '8f9903ad-3071-4556-8c66-f6aca3a3ac6c',
-    'tags' : ['Locker']
+    'tags' : ['Web Browser', 'Locker']
   }, {
     'name' : 'PurpleWave',
     'id' : '6aa38d45-e558-440e-9c1b-6b36c2cade66',
@@ -1068,7 +1068,7 @@ export default [
   }, {
     'name' : 'Facebook spam extension',
     'id' : 'ec37d584-b3b7-4225-adb4-ce30bc1b07bc',
-    'tags' : ['Mozilla Firefox']
+    'tags' : ['Web Browser']
   }, {
     'name' : 'CryptBot',
     'id' : '291b8a8f-efb5-4119-a651-1c3597d75a3e',
@@ -1102,7 +1102,7 @@ export default [
   }, {
     'name' : 'ATSEngine',
     'id' : '0b3b1ea2-8d46-4832-aebb-6975f9887e3b',
-    'tags' : ['Windows', 'Webinjects']
+    'tags' : ['Windows', 'Webinject']
   }, {
     'name' : 'Chase SPOX',
     'id' : '92205653-3078-493d-9e42-1704ebcb8476',
