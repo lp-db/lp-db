@@ -8,8 +8,13 @@ This library uses [urlscan.io](https://urlscan.io/), allowing to have screenshot
 
 It's possible that some login pages don't correspond to their description or their tags, these data are provided on best effort. In this case, or in order to complete the database, don't hesitate to open an issue/pull request. You can also contact me on [Twitter](https://twitter.com/DrStache_).
 
-## Login pages to identify
+## Reverse Image Search
 
+It's possible to perform a reverse image search to identify a login page. For best results, it's recommended to use screenshots from [urlscan.io](https://urlscan.io). Everything is done client side, the image recognition is based on [blockhash perceptual image hashing algorithm](https://github.com/LinusU/blockhash-core).
+
+## Unidentified login pages
+
+The following login pages have yet to be identified:
 - https://urlscan.io/result/1ad2650c-b639-4685-9c2a-bc98d7b7519d
 - https://urlscan.io/result/2e3de611-f030-4c2a-bfdc-01c33db6337e
 - https://urlscan.io/result/3e223ae3-5955-440c-a2ed-7700d21bd72f
@@ -29,4 +34,4 @@ It's possible that some login pages don't correspond to their description or the
 - C2 Trackers: [benkow](http://benkow.cc/passwords.php), [CyberCrime-Tracker](https://cybercrime-tracker.net), [ThreatShare](https://threatshare.io/malware) and [ViriBack](http://tracker.viriback.com)
 - Everyone who's sharing C2 panels on Twitter
 - [urlscan.io](https://urlscan.io/) submitters
-- [Hedroed](https://github.com/Hedroed) for the web app
+- [Hedroed](https://github.com/Hedroed) and [b0oml](https://github.com/b0oml) for the web app

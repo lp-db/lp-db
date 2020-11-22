@@ -115,10 +115,9 @@
             </p>
 
             <p class="error-msg" v-if="searchHash && visiblePages.length === 0">
-                No login pages matches this image, please make sure to use a screenshot from
-                <a href="https://urlscan.io/" target="blank" rel="noreferrer noopener">
+                No login pages matches this image. It's recommended to use screenshots from <a href="https://urlscan.io/" target="blank" rel="noreferrer noopener">
                     urlscan.io
-                </a>.
+                </a> for best results.
             </p>
         </div>
 
