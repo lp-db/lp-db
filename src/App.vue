@@ -53,12 +53,15 @@
                             <div v-show="searchHash" ref="searchPreview" class="search-preview"></div>
                         </div>
                         <input
-                            class="form-control"
-                            type="text"
                             id="search"
+                            class="form-control"
+                            :class="{ extended: searchInputFocused }"
+                            type="text"
                             @change="searchTextChange"
                             v-model="searchText"
                             placeholder="Search"
+                            @focus="searchInputFocused = true"
+                            @blur="searchInputFocused = false"
                         />
                     </li>
                 </ul>
@@ -115,7 +118,7 @@
                 No login page matches <b>{{ searchText }}</b>.
             </p>
 
-            <p class="error-msg" v-if="searchHash && visiblePages.length === 0">
+            <p class="error-msg" v-if="!searchText && searchHash && visiblePages.length === 0">
                 No login pages matches this image.<br>
                 It's recommended to use screenshots from <a href="https://urlscan.io/" target="blank" rel="noreferrer noopener">
                     urlscan.io
@@ -163,6 +166,7 @@ export default {
             searchText: '',
             searchHash: '',
             searchUrlHash: '',
+            searchInputFocused: false,
             lightboxVisible: false,
             clickedIndex: 0,
             navbarCollapsed: false
@@ -356,6 +360,13 @@ html, body {
 
 #search {
     margin-left: 5px;
+    width: 200px;
+    transition: width 0.4s;
+    transition-delay: 0.05s;
+}
+
+#search.extended {
+    width: 500px;
 }
 
 .container {

@@ -23,6 +23,8 @@ The following login pages still need to be identified:
 - https://urlscan.io/result/703fcaea-51fd-4056-93b8-f1e0c6e5cf4f
 - https://urlscan.io/result/7cd9d5cd-5c78-42aa-8957-0cd411e5ac53
 - https://urlscan.io/result/85d43229-ee1e-4dd8-a955-89d044cf2781
+- https://urlscan.io/result/96315669-7796-40b6-827a-0251287d595a
+- https://urlscan.io/result/b1abfe8a-b7be-4812-a26d-0937fe110230
 - https://urlscan.io/result/c3944fd6-e48a-4d2e-b162-f08eb2b84df0
 - https://urlscan.io/result/c65d5329-41a1-4ccc-9b1e-769ddcd350be
 - https://urlscan.io/result/cf1ff891-10bf-4efd-a072-0c5ce1b82c53
