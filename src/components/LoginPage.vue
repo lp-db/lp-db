@@ -12,7 +12,7 @@
                     </div>
                     <div class="links p-1 mt-2">
                         <a target="blank" rel="noreferrer noopener" @click.stop="false" :href="`https://urlscan.io/result/${id}`"><img src="../assets/urlscan.webp"></a>
-                        <a v-if="malpedia" target="blank" rel="noreferrer noopener" :href="`https://malpedia.caad.fkie.fraunhofer.de/details/${malpedia}`"><img src="../assets/malpedia.webp"></a>
+                        <a v-if="malpedia" target="blank" rel="noreferrer noopener" @click.stop="false" :href="`https://malpedia.caad.fkie.fraunhofer.de/details/${malpedia}`"><img src="../assets/malpedia.webp"></a>
                     </div>
                 </div>
             </div>
