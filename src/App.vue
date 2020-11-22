@@ -52,6 +52,7 @@
                                 type="file"
                                 id="searchFile"
                                 @change="searchFile"
+                                @click.stop="searchFileClick"
                                 placeholder="File"
                             />
                         </div>
@@ -126,10 +127,9 @@
 import LoginPage from './components/LoginPage.vue'
 import Lightbox from './components/Lightbox.vue'
 
-import Blockhash from './blockhash'
-window.Blockhash = Blockhash
+import {Blockhash, hammingDistance} from './blockhash'
 
-const bh = new Blockhash
+const bh = new Blockhash()
 
 export default {
     name: 'App',
@@ -142,6 +142,7 @@ export default {
             pages: [],
             activeTags: [],
             searchText: '',
+            searchHash: '',
             lightboxVisible: false,
             clickedIndex: 0,
             navbarCollapsed: false
@@ -160,6 +161,9 @@ export default {
             } 
             if(this.activeTags.length !== 0) {
                 ret = ret.filter(x => this.activeTags.every(t => x.tags.includes(t)) )
+            }
+            if(this.searchHash !== "") {
+                ret = ret.filter(x => hammingDistance(x.hash, this.searchHash) < 16 )
             }
 
             return ret.sort( (a, b) => a.name.localeCompare(b.name, 'en', {'sensitivity': 'base'}));
@@ -212,13 +216,21 @@ export default {
             this.navbarCollapsed = !this.navbarCollapsed
         },
         searchFile(event) {
-            if(!event.target || !event.target.files || event.target.files.length  == 0)
+            if(!event.target || !event.target.files || event.target.files.length == 0) {
                 return
+            }
 
             bh.blockhashFromFile(event.target.files[0])
             .then(hash => {
                 console.log("Hash is", hash)
+                this.searchHash = hash
             })
+        },
+        searchFileClick(event) {
+            if(this.searchHash !== '') {
+                event.preventDefault()
+                this.searchHash = ''
+            }
         }
     }
 }

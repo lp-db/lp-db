@@ -1,5 +1,5 @@
 
-export default class Blockhash {
+export class Blockhash {
     constructor() {
         this.canvas = document.createElement('canvas')
 
@@ -76,25 +76,12 @@ export default class Blockhash {
         })
     }
 
-    hammingDistance(hash1, hash2) {
-        let d = 0
-        let i
-
-        for (i = 0; i < hash1.length; i++) {
-            let n1 = parseInt(hash1[i], 16)
-            let n2 = parseInt(hash2[i], 16)
-            d += one_bits[n1 ^ n2]
-        }
-
-        return d
-    }
-
     bitsToHexhash(bitsArray) {
         var hex = ""
       
-        for (var i = 0; i < bitsArray.length; i += 8) {
-          var byte = bitsArray.slice(i, i+8)
-          hex += parseInt(byte.join(''), 2).toString(16)
+        for (var i = 0; i < bitsArray.length; i += 4) {
+          var niddle = bitsArray.slice(i, i+4)
+          hex += parseInt(niddle.join(''), 2).toString(16)
         }
       
         return hex
@@ -229,4 +216,21 @@ export default class Blockhash {
 
         return this.bitsToHexhash(result)
     }
+}
+
+const one_bits = [0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4]
+
+export function hammingDistance(hash1, hash2) {
+    let d = 0
+
+    
+    for (let i = 0; i < hash1.length; i++) {
+        let n1 = parseInt(hash1[i], 16)
+        let n2 = parseInt(hash2[i], 16)
+        d += one_bits[n1 ^ n2]
+    }
+    if(d < 40)
+        console.log("Hamming", hash1, hash2, d);
+
+    return d
 }
