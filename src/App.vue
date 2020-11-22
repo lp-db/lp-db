@@ -258,6 +258,8 @@ export default {
                 return
             }
 
+            this.searchHash = ''
+
             bh.blockhashFromFile(event.target.files[0])
             .then(hash => {
                 console.log("Hash is", hash)
@@ -277,6 +279,8 @@ export default {
             const res = matchUUID.exec(this.searchText)
             if(this.searchText.startsWith('https://urlscan.io/') && res != null) {
                 this.loadingFromUrl = true
+
+                this.searchHash = ''
 
                 bh.blockhashFromUrl(`https://urlscan.io/screenshots/${res[0]}.png`)
                 .then(hash => {
