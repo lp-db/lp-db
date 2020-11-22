@@ -260,6 +260,7 @@ export default {
             }
 
             this.searchHash = ''
+            this.activeTags.splice(0, this.activeTags.length)
 
             bh.blockhashFromFile(event.target.files[0])
             .then(hash => {
@@ -282,6 +283,7 @@ export default {
                 this.loadingFromUrl = true
 
                 this.searchHash = ''
+                this.activeTags.splice(0, this.activeTags.length)
 
                 bh.blockhashFromUrl(`https://urlscan.io/screenshots/${res[0]}.png`)
                 .then(hash => {
