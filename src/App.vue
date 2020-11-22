@@ -50,6 +50,7 @@
                                 @click.stop="searchFileClick"
                                 placeholder="File"
                             />
+                            <div v-show="searchHash" ref="searchPreview" class="search-preview"></div>
                         </div>
                         <input
                             class="form-control"
@@ -167,6 +168,8 @@ export default {
         import('./data.js').then(data => {
             this.pages = data.default
         })
+
+        this.$refs.searchPreview.appendChild(bh.image)
     },
     computed: {
         visiblePages() {
@@ -280,8 +283,10 @@ html, body {
 }
 
 .image-search {
+    display: flex;
+
     label {
-        margin: 0 10px 0 0;
+        margin: 0 5px 0 0;
     }
 
     input {
@@ -307,6 +312,17 @@ html, body {
             }
         }
     }
+
+    .search-preview img {
+        position: relative;
+        top: 4px;
+        height: 30px;
+        margin-right: 5px;
+    }
+}
+
+#search {
+    margin-left: 5px;
 }
 
 .container {
