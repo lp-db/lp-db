@@ -58,7 +58,7 @@
                             :class="{ extended: searchText || searchInputFocused }"
                             type="text"
                             v-model="searchText"
-                            placeholder="Search"
+                            placeholder="Name, urlscan.io link"
                             @focus="searchInputFocused = true"
                             @blur="searchInputFocused = false"
                         />
