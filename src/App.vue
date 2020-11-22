@@ -53,12 +53,15 @@
                             <div v-show="searchHash" ref="searchPreview" class="search-preview"></div>
                         </div>
                         <input
-                            class="form-control"
-                            type="text"
                             id="search"
+                            class="form-control"
+                            :class="{ extended: searchInputFocused }"
+                            type="text"
                             @change="searchTextChange"
                             v-model="searchText"
                             placeholder="Search"
+                            @focus="searchInputFocused = true"
+                            @blur="searchInputFocused = false"
                         />
                     </li>
                 </ul>
@@ -162,7 +165,7 @@ export default {
             activeTags: [],
             searchText: '',
             searchHash: '',
-            searchUrlHash: '',
+            searchInputFocused: false,
             lightboxVisible: false,
             clickedIndex: 0,
             navbarCollapsed: false
@@ -356,6 +359,12 @@ html, body {
 
 #search {
     margin-left: 5px;
+    width: 200px;
+    transition: width 0.4s;
+}
+
+#search.extended {
+    width: 500px;
 }
 
 .container {
