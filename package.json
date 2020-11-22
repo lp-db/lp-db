@@ -4,16 +4,21 @@
   "description": "## Project setup ``` npm install ```",
   "main": "index.js",
   "dependencies": {
+    "assets": "^3.0.1",
     "vue": "^2.6.11",
     "vue-hot-reload-api": "^2.3.4"
   },
   "devDependencies": {
+    "@canvas/image": "^1.0.1",
     "@vue/component-compiler-utils": "^3.2.0",
+    "blockhash-core": "^0.1.0",
     "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0",
     "vue-template-compiler": "^2.6.11"
   },
   "scripts": {
     "serve": "parcel index.html",
+    "hash": "node scripts/gen_hash.js",
     "build": "parcel build --public-url /lp-db/ --no-source-maps index.html"
   },
   "author": "",

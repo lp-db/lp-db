@@ -8,8 +8,13 @@ This library uses [urlscan.io](https://urlscan.io/), allowing to have screenshot
 
 It's possible that some login pages don't correspond to their description or their tags, these data are provided on best effort. In this case, or in order to complete the database, don't hesitate to open an issue/pull request. You can also contact me on [Twitter](https://twitter.com/DrStache_).
 
-## Login pages to identify
+## Reverse Image Search
 
+It's possible to perform a reverse image search to identify a login page. For best results, it's recommended to use screenshots from [urlscan.io](https://urlscan.io). Everything is done client side, the image recognition is based on [blockhash perceptual image hashing algorithm](https://github.com/LinusU/blockhash-core).
+
+## Unidentified login pages
+
+The following login pages still need to be identified:
 - https://urlscan.io/result/1ad2650c-b639-4685-9c2a-bc98d7b7519d
 - https://urlscan.io/result/2e3de611-f030-4c2a-bfdc-01c33db6337e
 - https://urlscan.io/result/3e223ae3-5955-440c-a2ed-7700d21bd72f
@@ -18,6 +23,8 @@ It's possible that some login pages don't correspond to their description or the
 - https://urlscan.io/result/703fcaea-51fd-4056-93b8-f1e0c6e5cf4f
 - https://urlscan.io/result/7cd9d5cd-5c78-42aa-8957-0cd411e5ac53
 - https://urlscan.io/result/85d43229-ee1e-4dd8-a955-89d044cf2781
+- https://urlscan.io/result/96315669-7796-40b6-827a-0251287d595a
+- https://urlscan.io/result/b1abfe8a-b7be-4812-a26d-0937fe110230
 - https://urlscan.io/result/c3944fd6-e48a-4d2e-b162-f08eb2b84df0
 - https://urlscan.io/result/c65d5329-41a1-4ccc-9b1e-769ddcd350be
 - https://urlscan.io/result/cf1ff891-10bf-4efd-a072-0c5ce1b82c53
