@@ -110,11 +110,11 @@
 
         <div class="container container-no-panel" v-else>
             <p class="error-msg" v-if="searchText && visiblePages.length === 0">
-                No panel matching <b>{{ searchText }}</b>.
+                No login page matches <b>{{ searchText }}</b>.
             </p>
 
             <p class="error-msg" v-if="searchHash && visiblePages.length === 0">
-                No panel matching this image, make sure you used a screenshot from <a href="https://urlscan.io/">urlscan.io</a>.
+                No login pages matches this image, please make sure to use a screenshot from <a href="https://urlscan.io/">urlscan.io</a>.
             </p>
         </div>
 
