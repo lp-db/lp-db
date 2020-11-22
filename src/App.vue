@@ -55,7 +55,7 @@
                         <input
                             id="search"
                             class="form-control"
-                            :class="{ extended: searchInputFocused }"
+                            :class="{ extended: searchText || searchInputFocused }"
                             type="text"
                             @change="searchTextChange"
                             v-model="searchText"
