@@ -57,7 +57,6 @@
                             class="form-control"
                             :class="{ extended: searchText || searchInputFocused }"
                             type="text"
-                            @change="searchTextChange"
                             v-model="searchText"
                             placeholder="Search"
                             @focus="searchInputFocused = true"
@@ -114,7 +113,14 @@
         </div>
 
         <div class="container container-no-panel" v-else>
-            <p class="error-msg" v-if="searchText && visiblePages.length === 0">
+
+            <div v-if="loadingFromUrl" class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+
+            <p class="error-msg" v-if="!loadingFromUrl && searchText && visiblePages.length === 0">
                 No login page matches <b>{{ searchText }}</b>.
             </p>
 
@@ -165,11 +171,11 @@ export default {
             activeTags: [],
             searchText: '',
             searchHash: '',
-            searchUrlHash: '',
             searchInputFocused: false,
             lightboxVisible: false,
             clickedIndex: 0,
-            navbarCollapsed: false
+            navbarCollapsed: false,
+            loadingFromUrl: false
         }
     },
     mounted() {
@@ -179,20 +185,20 @@ export default {
 
         this.$refs.searchPreview.appendChild(bh.image)
     },
+    watch: {
+        searchText() {
+            this.searchTextChange()
+        }
+    },
     computed: {
         visiblePages() {
             let ret = this.pages
 
-            // hash from searching url is mandatory on search by text and by image
-            if(this.searchUrlHash !== "") {
-                ret = ret.filter(x => hammingDistance(x.hash, this.searchUrlHash) < 16 )
-            } else {
-                if(this.searchText !== "") {
-                    ret = ret.filter(x => x.name.toLowerCase().includes(this.searchText.toLowerCase()))
-                }
-                if(this.searchHash !== "") {
-                    ret = ret.filter(x => hammingDistance(x.hash, this.searchHash) < 16 )
-                }
+            if(this.searchText !== "") {
+                ret = ret.filter(x => x.name.toLowerCase().includes(this.searchText.toLowerCase()))
+            }
+            if(this.searchHash !== "") {
+                ret = ret.filter(x => hammingDistance(x.hash, this.searchHash) < 16 )
             }
             if(this.activeTags.length !== 0) {
                 ret = ret.filter(x => this.activeTags.every(t => x.tags.includes(t)) )
@@ -267,22 +273,20 @@ export default {
                 this.searchHash = ''
             }
         },
-        searchTextChange(event) {
-            console.log('New search text');
-
-            const res = matchUUID.exec(event.target.value)
-            if(event.target.value.startsWith('https://urlscan.io/') && res != null) {
-                console.log('Not matching');
+        searchTextChange() {
+            const res = matchUUID.exec(this.searchText)
+            if(this.searchText.startsWith('https://urlscan.io/') && res != null) {
+                this.loadingFromUrl = true
 
                 bh.blockhashFromUrl(`https://urlscan.io/screenshots/${res[0]}.png`)
                 .then(hash => {
                     console.log("Hash from URL", hash)
-                    this.searchUrlHash = hash
+                    this.searchHash = hash
+                    this.searchText = ''
                 })
                 .catch(err => {
                     console.error('Error: Can\'t load this URL.')
                 })
-
             }
         }
     }
