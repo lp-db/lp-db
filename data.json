@@ -39,6 +39,12 @@
         "malpedia": "win.agent_tesla"
     },
     {
+        "name": "AgentTesla",
+        "id": "7f19e626-cb9c-4f6b-9a5b-ea73596cf3b8",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.agent_tesla"
+    }
+    {
         "name": "AlphaStealer",
         "id": "ae309138-e658-465c-9287-61f3d08be263",
         "tags": ["Windows", "Stealer"]
@@ -1128,7 +1134,7 @@
     {
         "name": "SamoRAT",
         "id": "67afd52f-b91e-4ab5-a3c1-7aa74b163798",
-        "tags": ["Windows", "Stealer"],
+        "tags": ["Windows", "Loader"],
         "malpedia": "win.samo_rat"
     },
     {
@@ -1377,5 +1383,10 @@
         "name": "Raccoon 3000",
         "id": "d045c09d-ae03-4c5a-81bc-242202c2e361",
         "tags": ["Windows"]
+    },
+    {
+        "name": "RigEK",
+        "id": "ec7a71b2-8c1e-40a1-b11e-9cfe68c856d1",
+        "tags": ["Exploit-Kit"]
     }
 ]
