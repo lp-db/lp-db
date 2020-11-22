@@ -59,7 +59,7 @@
                             type="text"
                             @change="searchTextChange"
                             v-model="searchText"
-                            placeholder="Search"
+                            placeholder="Name, urlscan.io link"
                             @focus="searchInputFocused = true"
                             @blur="searchInputFocused = false"
                         />
