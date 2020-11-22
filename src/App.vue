@@ -54,6 +54,7 @@
                         </div>
                         <input
                             id="search"
+                            ref="searchInput"
                             class="form-control"
                             :class="{ extended: searchText || searchInputFocused }"
                             type="text"
@@ -287,6 +288,7 @@ export default {
                     console.log("Hash from URL", hash)
                     this.searchHash = hash
                     this.searchText = ''
+                    this.$refs.searchInput.blur()
                 })
                 .catch(err => {
                     console.error('Error: Can\'t load this URL.')
@@ -373,7 +375,7 @@ html, body {
     margin-left: 5px;
     width: 200px;
     transition: width 0.4s;
-    transition-delay: 0.05s;
+    transition-delay: 0.07s;
 }
 
 #search.extended {
