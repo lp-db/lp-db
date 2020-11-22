@@ -407,4 +407,11 @@ label {
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media screen and (max-width: 992px) {
+    #search {
+        width: 100% !important;
+    }
+}
+
 </style>
