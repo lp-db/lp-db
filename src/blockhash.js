@@ -58,12 +58,12 @@ export class Blockhash {
                     // this is now self.image
                     this.removeEventListener('load', imageListener)
 
-                    self.canvas.width = this.width
-                    self.canvas.height = this.height
+                    self.canvas.width = 1600
+                    self.canvas.height = 1200
 
                     let context = self.canvas.getContext('2d')
-                    context.drawImage(this, 0, 0, this.width, this.height)
-                    let data = context.getImageData(0, 0, this.width, this.height)
+                    context.drawImage(this, 0, 0, this.width, this.height, 0, 0, 1600, 1200) // Force image size to 1600x1200
+                    let data = context.getImageData(0, 0, 1600, 1200)
 
                     return resolve(self.bmvbhash(data, bits))
                 })
