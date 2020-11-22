@@ -1,5 +1,6 @@
 const https = require('https')
 const fs = require('fs')
+var readline = require('readline')
 const blockhash = require('blockhash-core')
 const { imageFromBuffer, getImageData } = require('@canvas/image')
 
@@ -68,8 +69,7 @@ const allPromises = data.map((d) => {
         .then((hash) => {
             progress += 1
 
-            process.stdout.clearLine()
-            process.stdout.cursorTo(0)
+            readline.cursorTo(process.stdout, 0)
             process.stdout.write(`Current progress: ${progress}/${pageCnt}`)
 
             return {
