@@ -1,11 +1,11 @@
 <template>
     <div id="app">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <h1 class="navbar-brand" href>LP-DB</h1>
+            <span class="navbar-brand">LP-DB</span>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a
-                        class="nav-link pl-2 pr-1 mx-1 py-3 my-n2"
+                        class="nav-link"
                         href="https://github.com/lp-db/lp-db"
                         target="_blank"
                         rel="noopener"
@@ -38,19 +38,12 @@
             <div id="navb" class="collapse navbar-collapse" :class="{ show: navbarCollapsed }">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item search">
-                        <input
-                            class="form-control mr-sm-2"
-                            type="text"
-                            id="search"
-                            v-model="searchText"
-                            placeholder="Search"
-                        />
                         <div class="image-search">
                             <label for="searchFile">
                                 <i class="icon-picture"></i>
                             </label>
                             <input
-                                class="form-control mr-sm-2"
+                                class="form-control"
                                 type="file"
                                 id="searchFile"
                                 @change="searchFile"
@@ -58,6 +51,13 @@
                                 placeholder="File"
                             />
                         </div>
+                        <input
+                            class="form-control"
+                            type="text"
+                            id="search"
+                            v-model="searchText"
+                            placeholder="Search"
+                        />
                     </li>
                 </ul>
             </div>
@@ -249,20 +249,26 @@ html, body {
     padding-bottom: 100px;
 }
 
+.navbar-brand {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.navbar-nav-svg {
+    position: relative;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    bottom: 1px;
+}
+
 .nav-item.search {
     display: flex;
 }
 
-.navbar-nav-svg {
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    vertical-align: text-top;
-}
-
 .image-search {
     label {
-        margin: 0;
+        margin: 0 10px 0 0;
     }
 
     input {
