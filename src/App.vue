@@ -334,6 +334,7 @@ html, body {
     margin-left: 5px;
     width: 200px;
     transition: width 0.4s;
+    transition-delay: 0.05s;
 }
 
 #search.extended {
