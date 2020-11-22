@@ -39,8 +39,8 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item search">
                         <div class="image-search">
-                            <label for="searchFile">
-                                <i class="icon-picture"></i>
+                            <label for="searchFile" title="Search by image (urlscan.io screenshot)">
+                                <i :class="searchHash ? 'icon-cancel-circled-outline' : 'icon-picture'"></i>
                             </label>
                             <input
                                 class="form-control"
@@ -277,13 +277,24 @@ html, body {
 
     i {
         cursor: pointer;
-        color: #9aa1a8;
         font-size: 26px;
         transition: color 0.1s;
 
-        &:hover {
-            color: #dae0e7;
+        &.icon-picture {
+            color: #9aa1a8;
+            &:hover {
+                color: #dae0e7;
+            }
         }
+
+        &.icon-cancel-circled-outline {
+            color: #e87b45;
+            &:hover {
+                color: #f89664;
+            }
+        }
+
+        
     }
 }
 
