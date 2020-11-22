@@ -117,7 +117,7 @@
                 No login page matches <b>{{ searchText }}</b>.
             </p>
 
-            <p class="error-msg" v-if="searchHash && visiblePages.length === 0">
+            <p class="error-msg" v-if="!searchText && searchHash && visiblePages.length === 0">
                 No login pages matches this image.<br>
                 It's recommended to use screenshots from <a href="https://urlscan.io/" target="blank" rel="noreferrer noopener">
                     urlscan.io
