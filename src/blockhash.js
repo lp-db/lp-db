@@ -229,8 +229,6 @@ export function hammingDistance(hash1, hash2) {
         let n2 = parseInt(hash2[i], 16)
         d += one_bits[n1 ^ n2]
     }
-    if(d < 40)
-        console.log("Hamming", hash1, hash2, d);
 
     return d
 }
