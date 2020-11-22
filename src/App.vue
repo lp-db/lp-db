@@ -56,6 +56,7 @@
                             class="form-control"
                             type="text"
                             id="search"
+                            @change="searchTextChange"
                             v-model="searchText"
                             placeholder="Search"
                         />
@@ -147,6 +148,8 @@ import {Blockhash, hammingDistance} from './blockhash'
 
 const bh = new Blockhash()
 
+const matchUUID = /[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}/
+
 export default {
     name: 'App',
     components: {
@@ -159,6 +162,7 @@ export default {
             activeTags: [],
             searchText: '',
             searchHash: '',
+            searchUrlHash: '',
             lightboxVisible: false,
             clickedIndex: 0,
             navbarCollapsed: false
@@ -174,14 +178,20 @@ export default {
     computed: {
         visiblePages() {
             let ret = this.pages
-            if(this.searchText !== "") {
-                ret = ret.filter(x => x.name.toLowerCase().includes(this.searchText.toLowerCase()))
-            } 
+
+            // hash from searching url is mandatory on search by text and by image
+            if(this.searchUrlHash !== "") {
+                ret = ret.filter(x => hammingDistance(x.hash, this.searchUrlHash) < 16 )
+            } else {
+                if(this.searchText !== "") {
+                    ret = ret.filter(x => x.name.toLowerCase().includes(this.searchText.toLowerCase()))
+                }
+                if(this.searchHash !== "") {
+                    ret = ret.filter(x => hammingDistance(x.hash, this.searchHash) < 16 )
+                }
+            }
             if(this.activeTags.length !== 0) {
                 ret = ret.filter(x => this.activeTags.every(t => x.tags.includes(t)) )
-            }
-            if(this.searchHash !== "") {
-                ret = ret.filter(x => hammingDistance(x.hash, this.searchHash) < 16 )
             }
 
             return ret.sort( (a, b) => a.name.localeCompare(b.name, 'en', {'sensitivity': 'base'}));
@@ -251,6 +261,24 @@ export default {
             if(this.searchHash !== '') {
                 event.preventDefault()
                 this.searchHash = ''
+            }
+        },
+        searchTextChange(event) {
+            console.log('New search text');
+
+            const res = matchUUID.exec(event.target.value)
+            if(event.target.value.startsWith('https://urlscan.io/') && res != null) {
+                console.log('Not matching');
+
+                bh.blockhashFromUrl(`https://urlscan.io/screenshots/${res[0]}.png`)
+                .then(hash => {
+                    console.log("Hash from URL", hash)
+                    this.searchUrlHash = hash
+                })
+                .catch(err => {
+                    console.error('Error: Can\'t load this URL.')
+                })
+
             }
         }
     }
