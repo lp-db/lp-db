@@ -470,12 +470,6 @@
         "malpedia": "win.blacknet_rat"
     },
     {
-        "name": "BlackNet",
-        "id": "f173575e-7eda-4bfc-ac7c-c74d3c1d6569",
-        "tags": ["Windows", "Stealer"],
-        "malpedia": "win.blacknet_rat"
-    },
-    {
         "name": "Borr",
         "id": "6f915e5e-a739-4d01-a819-4d478262f559",
         "tags": ["Windows", "Stealer"],
