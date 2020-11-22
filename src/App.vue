@@ -63,7 +63,7 @@
             </div>
         </nav>
 
-        <div class="container">
+        <div class="container" v-if="visiblePages.length !== 0">
             <div class="row">
                 <!-- Toolbar -->
                 <div class="container justify-content-center align-items-center">
@@ -75,7 +75,7 @@
                             All
                             <span
                                 class="badge badge-light"
-                            >{{pages.length}}</span>
+                            >{{visiblePages.length}}</span>
                         </label>
                         <label
                             v-for="t of allTags"
@@ -106,6 +106,16 @@
                     @click="showPage(lp.id)"
                 />
             </div>
+        </div>
+
+        <div class="container container-no-panel" v-else>
+            <p class="error-msg" v-if="searchText && visiblePages.length === 0">
+                No panel matching <b>{{ searchText }}</b>.
+            </p>
+
+            <p class="error-msg" v-if="searchHash && visiblePages.length === 0">
+                No panel matching this image, make sure you used a screenshot from <a href="https://urlscan.io/">urlscan.io</a>.
+            </p>
         </div>
 
         <footer class="footer">
@@ -173,7 +183,7 @@ export default {
         allTags() {
             const allTags = {}
 
-            for (const page of this.pages) {
+            for (const page of this.visiblePages) {
                 for (const t of page.tags) {
                     if (allTags.hasOwnProperty(t)) {
                         allTags[t] += 1
@@ -293,8 +303,18 @@ html, body {
                 color: #f89664;
             }
         }
+    }
+}
 
-        
+.container {
+    padding-top: 2px;
+}
+
+.container-no-panel {
+    padding-top: 40px;
+
+    .error-msg {
+        text-align: center;
     }
 }
 
