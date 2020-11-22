@@ -287,6 +287,9 @@ export default {
                 .catch(err => {
                     console.error('Error: Can\'t load this URL.')
                 })
+                .finally(() => {
+                    this.loadingFromUrl = false
+                })
             }
         }
     }
