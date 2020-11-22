@@ -39,7 +39,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item search">
                         <div class="image-search">
-                            <label for="searchFile" title="Search by image (urlscan.io screenshot)">
+                            <label for="searchFile" title="Reverse Image Search">
                                 <i :class="searchHash ? 'icon-cancel-circled-outline' : 'icon-picture'"></i>
                             </label>
                             <input
@@ -321,6 +321,8 @@ html, body {
         top: 4px;
         height: 30px;
         margin-right: 5px;
+        width: 40px;
+        object-fit: cover;
     }
 }
 
