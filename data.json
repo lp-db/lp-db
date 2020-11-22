@@ -43,7 +43,7 @@
         "id": "7f19e626-cb9c-4f6b-9a5b-ea73596cf3b8",
         "tags": ["Windows", "Stealer"],
         "malpedia": "win.agent_tesla"
-    }
+    },
     {
         "name": "AlphaStealer",
         "id": "ae309138-e658-465c-9287-61f3d08be263",
@@ -1388,5 +1388,16 @@
         "name": "RigEK",
         "id": "ec7a71b2-8c1e-40a1-b11e-9cfe68c856d1",
         "tags": ["Exploit-Kit"]
+    },
+    {
+        "name": "Ficker Stealer",
+        "id": "b105cd29-acf2-47dc-b085-332b87d0b9e9",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Cerberus",
+        "id": "c0596ed6-0d36-4c87-9dfb-9b19ba94c1bb",
+        "tags": ["Android", "Banker"],
+        "malpedia": "apk.cerberus"
     }
 ]
