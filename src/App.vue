@@ -58,7 +58,7 @@
                             :class="{ extended: searchText || searchInputFocused }"
                             type="text"
                             v-model="searchText"
-                            placeholder="Search"
+                            placeholder="Name, urlscan.io link"
                             @focus="searchInputFocused = true"
                             @blur="searchInputFocused = false"
                         />
@@ -407,4 +407,11 @@ label {
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media screen and (max-width: 992px) {
+    #search {
+        width: 100% !important;
+    }
+}
+
 </style>
