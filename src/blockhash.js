@@ -25,6 +25,9 @@ export class Blockhash {
                 context.drawImage(this.image, 0, 0, this.image.width, this.image.height)
                 let data = context.getImageData(0, 0, this.image.width, this.image.height)
 
+                context.clearRect(0, 0, 1600, 1200)
+                context.restore()
+
                 return resolve(this.bmvbhash(data, bits))
             })
             this.image.addEventListener('error', (err) => {
@@ -64,6 +67,9 @@ export class Blockhash {
                     let context = self.canvas.getContext('2d')
                     context.drawImage(this, 0, 0, this.width, this.height, 0, 0, 1600, 1200) // Force image size to 1600x1200
                     let data = context.getImageData(0, 0, 1600, 1200)
+
+                    context.clearRect(0, 0, 1600, 1200)
+                    context.restore()
 
                     return resolve(self.bmvbhash(data, bits))
                 })
