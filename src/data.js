@@ -379,11 +379,6 @@ export default [
     'tags' : ['Windows', 'Stealer'],
     'malpedia' : 'win.blacknet_rat'
   }, {
-    'name' : 'BlackNet',
-    'id' : 'f173575e-7eda-4bfc-ac7c-c74d3c1d6569',
-    'tags' : ['Windows', 'Stealer'],
-    'malpedia' : 'win.blacknet_rat'
-  }, {
     'name' : 'Borr',
     'id' : '6f915e5e-a739-4d01-a819-4d478262f559',
     'tags' : ['Windows', 'Stealer'],
@@ -1131,5 +1126,10 @@ export default [
     'name' : 'Ficker Stealer',
     'id' : 'b105cd29-acf2-47dc-b085-332b87d0b9e9',
     'tags' : ['Windows', 'Stealer']
+  }, {
+    'name' : 'Cerberus',
+    'id' : 'c0596ed6-0d36-4c87-9dfb-9b19ba94c1bb',
+    'tags' : ['Android', 'Banker'],
+    'malpedia' : 'apk.cerberus'
   }
 ]
