@@ -1127,5 +1127,9 @@ export default [
     'name' : 'Raccoon 3000',
     'id' : 'd045c09d-ae03-4c5a-81bc-242202c2e361',
     'tags' : ['Windows']
+  }, {
+    'name' : 'Ficker Stealer',
+    'id' : 'b105cd29-acf2-47dc-b085-332b87d0b9e9',
+    'tags' : ['Windows', 'Stealer']
   }
 ]
