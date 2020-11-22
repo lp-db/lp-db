@@ -4,7 +4,7 @@ node_js:
 
 cache: npm
 
-script: npm run build
+script: npm run hash && npm run build
 
 deploy:
   provider: pages
