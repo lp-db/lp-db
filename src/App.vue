@@ -243,6 +243,9 @@ export default {
                 console.log("Hash is", hash)
                 this.searchHash = hash
             })
+            .catch(err => {
+                console.error('Error: Can\'t load this image.')
+            })
         },
         searchFileClick(event) {
             if(this.searchHash !== '') {
