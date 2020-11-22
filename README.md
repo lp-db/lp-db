@@ -14,7 +14,7 @@ It's possible to perform a reverse image search to identify a login page. For be
 
 ## Unidentified login pages
 
-The following login pages have yet to be identified:
+The following login pages still need to be identified:
 - https://urlscan.io/result/1ad2650c-b639-4685-9c2a-bc98d7b7519d
 - https://urlscan.io/result/2e3de611-f030-4c2a-bfdc-01c33db6337e
 - https://urlscan.io/result/3e223ae3-5955-440c-a2ed-7700d21bd72f
