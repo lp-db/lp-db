@@ -16,7 +16,7 @@ It's possible to perform a reverse image search to identify a login page. For be
 
 The following login pages still need to be identified:
 - https://urlscan.io/result/1ad2650c-b639-4685-9c2a-bc98d7b7519d
-- https://urlscan.io/result/2e3de611-f030-4c2a-bfdc-01c33db6337e
+- https://urlscan.io/result/2e3de611-f030-4c2a-bfdc-01c33db6337e  -- Linked to APK malware delivery portals - https://twitter.com/JCyberSec_/status/1303618860449509377
 - https://urlscan.io/result/3e223ae3-5955-440c-a2ed-7700d21bd72f
 - https://urlscan.io/result/4a726ed3-910c-4477-aa9f-87c80030430c
 - https://urlscan.io/result/6d8d7e7f-bd2e-4111-bef2-4dce718e9ae4
@@ -27,7 +27,7 @@ The following login pages still need to be identified:
 - https://urlscan.io/result/b1abfe8a-b7be-4812-a26d-0937fe110230
 - https://urlscan.io/result/c3944fd6-e48a-4d2e-b162-f08eb2b84df0
 - https://urlscan.io/result/c65d5329-41a1-4ccc-9b1e-769ddcd350be
-- https://urlscan.io/result/cf1ff891-10bf-4efd-a072-0c5ce1b82c53
+- https://urlscan.io/result/cf1ff891-10bf-4efd-a072-0c5ce1b82c53  -- This is a password protected webshell. 
 - https://urlscan.io/result/db60a74c-6375-40ed-84c8-23e9f92eaacb
 
 ## Acknowledgements
