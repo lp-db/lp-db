@@ -1403,5 +1403,75 @@
         "name": "iTech / iUnlock Server",
         "id": "bda89b91-a80a-474d-bd2c-81723396366d",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "APK delivery portals",
+        "id": "2e3de611-f030-4c2a-bfdc-01c33db6337e",
+        "tags": ["Android"]
+    },
+    {
+        "name": "Unknown",
+        "id": "cf1ff891-10bf-4efd-a072-0c5ce1b82c53",
+        "tags": ["Webshell", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "1ad2650c-b639-4685-9c2a-bc98d7b7519d",
+        "tags": ["Webshell", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "3e223ae3-5955-440c-a2ed-7700d21bd72f",
+        "tags": ["Android", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "4a726ed3-910c-4477-aa9f-87c80030430c",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "6d8d7e7f-bd2e-4111-bef2-4dce718e9ae4",
+        "tags": ["Windows", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "703fcaea-51fd-4056-93b8-f1e0c6e5cf4f",
+        "tags": ["Webshell", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "7cd9d5cd-5c78-42aa-8957-0cd411e5ac53",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "85d43229-ee1e-4dd8-a955-89d044cf2781",
+        "tags": ["TDS", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "96315669-7796-40b6-827a-0251287d595a",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "b1abfe8a-b7be-4812-a26d-0937fe110230",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "c3944fd6-e48a-4d2e-b162-f08eb2b84df0",
+        "tags": ["Android", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "c65d5329-41a1-4ccc-9b1e-769ddcd350be",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "db60a74c-6375-40ed-84c8-23e9f92eaacb",
+        "tags": ["Phishing", "Unknown"]
     }
 ]
