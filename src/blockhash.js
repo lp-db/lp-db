@@ -14,31 +14,35 @@ export class Blockhash {
     }
 
     blockhashFromUrl(url, bits=16) {
+        const self = this
+        
         return new Promise((resolve, reject) => {
             this.image.src = url
+            
+            this.image.addEventListener('load', function readerListener() {
+                this.removeEventListener('load', readerListener)
 
-            this.image.addEventListener('load', () => {
-                this.canvas.width = this.image.width
-                this.canvas.height = this.image.height
+                self.canvas.width = 1600
+                self.canvas.height = 1200
 
-                let context = this.canvas.getContext('2d')
-                context.drawImage(this.image, 0, 0, this.image.width, this.image.height)
-                let data = context.getImageData(0, 0, this.image.width, this.image.height)
+                let context = self.canvas.getContext('2d')
+                context.drawImage(this, 0, 0, this.width, this.height, 0, 0, 1600, 1200) // Force image size to 1600x1200
+                let data = context.getImageData(0, 0, 1600, 1200)
 
                 context.clearRect(0, 0, 1600, 1200)
                 context.restore()
 
-                return resolve(this.bmvbhash(data, bits))
+                return resolve(self.bmvbhash(data, bits))
             })
-            this.image.addEventListener('error', (err) => {
+            this.image.addEventListener('error', function readerListenerError(err) {
+                this.removeEventListener('error', readerListenerError)
                 return reject(err)
 
             })
         })
     }
     
-    blockhashFromFile(file, bits=16) {
-        
+    urlFromFile(file) {
         const self = this
 
         return new Promise((resolve, reject) => {
@@ -51,33 +55,6 @@ export class Blockhash {
             self.reader.addEventListener('error', function readerListenerError(err) {
                 this.removeEventListener('error', readerListenerError)
                 return reject(err)
-            })
-
-        }).then(imageUri => {
-            self.image.src = imageUri
-
-            return new Promise((resolve, reject) => {
-                self.image.addEventListener('load', function imageListener() {
-                    // this is now self.image
-                    this.removeEventListener('load', imageListener)
-
-                    self.canvas.width = 1600
-                    self.canvas.height = 1200
-
-                    let context = self.canvas.getContext('2d')
-                    context.drawImage(this, 0, 0, this.width, this.height, 0, 0, 1600, 1200) // Force image size to 1600x1200
-                    let data = context.getImageData(0, 0, 1600, 1200)
-
-                    context.clearRect(0, 0, 1600, 1200)
-                    context.restore()
-
-                    return resolve(self.bmvbhash(data, bits))
-                })
-                self.image.addEventListener('error', function imageListenerError(err) {
-                    this.removeEventListener('error', imageListenerError)
-
-                    return reject(err)
-                })
             })
         })
     }

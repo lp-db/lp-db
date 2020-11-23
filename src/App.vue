@@ -50,7 +50,9 @@
                                 @click.stop="searchFileClick"
                                 placeholder="File"
                             />
-                            <div v-show="searchHash" ref="searchPreview" class="search-preview"></div>
+                            <div v-show="searchHash" class="search-preview">
+                                <img ref="searchPreview" src="" alt="image search preview">
+                            </div>
                         </div>
                         <input
                             id="search"
@@ -183,8 +185,6 @@ export default {
         import('./data.js').then(data => {
             this.pages = data.default
         })
-
-        this.$refs.searchPreview.appendChild(bh.image)
     },
     watch: {
         searchText() {
@@ -259,12 +259,15 @@ export default {
                 return
             }
 
-            this.searchHash = ''
             this.activeTags.splice(0, this.activeTags.length)
 
-            bh.blockhashFromFile(event.target.files[0])
+            bh.urlFromFile(event.target.files[0])
+            .then(url => {
+                this.$refs.searchPreview.src = url
+                return bh.blockhashFromUrl(url)
+            })
             .then(hash => {
-                console.log("Hash is", hash)
+                console.log("Hash from file", hash)
                 this.searchHash = hash
             })
             .catch(err => {
@@ -282,10 +285,11 @@ export default {
             if(this.searchText.startsWith('https://urlscan.io/') && res != null) {
                 this.loadingFromUrl = true
 
-                this.searchHash = ''
                 this.activeTags.splice(0, this.activeTags.length)
 
-                bh.blockhashFromUrl(`https://urlscan.io/screenshots/${res[0]}.png`)
+                const url = `https://urlscan.io/screenshots/${res[0]}.png`
+                this.$refs.searchPreview.src = url
+                bh.blockhashFromUrl(url)
                 .then(hash => {
                     console.log("Hash from URL", hash)
                     this.searchHash = hash
