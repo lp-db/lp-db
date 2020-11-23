@@ -1393,5 +1393,15 @@
         "id": "c0596ed6-0d36-4c87-9dfb-9b19ba94c1bb",
         "tags": ["Android", "Banker"],
         "malpedia": "apk.cerberus"
+    },
+    {
+        "name": "LocKit Server",
+        "id": "080d63f2-9c49-4cb7-9098-0a66267c8ec4",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "iTech / iUnlock Server",
+        "id": "bda89b91-a80a-474d-bd2c-81723396366d",
+        "tags": ["Phishing"]
     }
 ]
