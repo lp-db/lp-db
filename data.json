@@ -1473,5 +1473,10 @@
         "name": "Unknown",
         "id": "db60a74c-6375-40ed-84c8-23e9f92eaacb",
         "tags": ["Phishing", "Unknown"]
+    },
+    {
+        "name": "RURAT",
+        "id": "cf5de23a-a649-41ef-9e45-f18a2db2d01eb",
+        "tags": ["Windows"]
     }
 ]
