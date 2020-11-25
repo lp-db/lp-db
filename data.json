@@ -6,6 +6,12 @@
         "malpedia": "win.absentloader"
     },
     {
+        "name": "TriumphLoader",
+        "id": "ee425f94-b53c-4f02-a81f-c5c76e1e28cc",
+        "tags": ["Windows", "Loader"],
+        "malpedia": "win.absentloader"
+    },
+    {
         "name": "AbStealer",
         "id": "e3a47170-c9c9-4926-a9b9-7e2389b439b5",
         "tags": ["Windows", "Stealer"]
