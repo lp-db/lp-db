@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-4 mb-1">
-        <div class="login-page rounded">
+        <div class="login-page rounded shadow-sm">
             <img class="cover" loading="lazy" :src="`https://urlscan.io/screenshots/${id}.png`" />
             <div class="content" @click="$emit('click', id)">
                 <div class="hover">
@@ -36,6 +36,7 @@ export default {
     overflow: hidden;
     position: relative;
     min-height: 100px;
+    margin-bottom: 4px;
 }
 
 .cover {
