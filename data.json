@@ -301,6 +301,11 @@
         "tags": ["Windows", "Stealer"]
     },
     {
+        "name": "DT-Stealer",
+        "id": "b11660a3-7abf-4d29-b4b2-9347b176c9b3",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
         "name": "EnlightenedHTTP",
         "id": "7c5503ce-9b4a-4469-aa37-fbadb7ea130c",
         "tags": ["Windows", "Miner"]
@@ -1484,5 +1489,16 @@
         "name": "RURAT",
         "id": "cf5de23a-a649-41ef-9e45-f18a2db2d01e",
         "tags": ["Windows"]
+    },
+    {
+        "name": "VizaviBot / XploitSPY",
+        "id": "fa6a530c-0ca5-49bf-8341-ce5eea007cc2",
+        "tags": ["Android", "Spyware"],
+        "malpedia": "apk.xploitspy"
+    },
+    {
+        "name": "ShinobuClipper / LuckyStealer",
+        "id": "09a83d93-fef7-42dc-9f13-67800f991c4e",
+        "tags": ["Windows", "Stealer", "Clipper"]
     }
 ]
