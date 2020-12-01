@@ -1500,5 +1500,10 @@
         "name": "ShinobuClipper / LuckyStealer",
         "id": "09a83d93-fef7-42dc-9f13-67800f991c4e",
         "tags": ["Windows", "Stealer", "Clipper"]
+    },
+    {
+        "name": "Domen",
+        "id": "e7eb07c4-a4d7-47e7-847c-cef5c4021139",
+        "tags": ["Malvertising"]
     }
 ]
