@@ -1505,5 +1505,10 @@
         "name": "Domen",
         "id": "e7eb07c4-a4d7-47e7-847c-cef5c4021139",
         "tags": ["Malvertising"]
+    },
+    {
+        "name": "PhoneSpy",
+        "id": "7ee9bdab-7158-46dd-b197-fd761d35f6d7",
+        "tags": ["Android", "Spyware"]
     }
 ]
