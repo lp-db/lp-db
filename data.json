@@ -1510,5 +1510,15 @@
         "name": "PhoneSpy",
         "id": "7ee9bdab-7158-46dd-b197-fd761d35f6d7",
         "tags": ["Android", "Spyware"]
+    },
+    {
+        "name": "Supreme++",
+        "id": "93521c98-e264-46ca-a143-5490deca8711",
+        "tags": ["Windows", "Miner", "Loader"]
+    },
+    {
+        "name": "SupremeMiner",
+        "id": "d1a3f855-3b69-4219-95dd-4601ee4ba743",
+        "tags": ["Windows", "Miner"]
     }
 ]
