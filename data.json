@@ -1520,5 +1520,25 @@
         "name": "SupremeMiner",
         "id": "d1a3f855-3b69-4219-95dd-4601ee4ba743",
         "tags": ["Windows", "Miner"]
+    },
+    {
+        "name": "iTrueKit",
+        "id": "88800094-6408-44a6-a97b-d67bdfe94798",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "Guci Gun",
+        "id": "a9795ef5-e5cb-4a4e-b1d8-99236aa77ef7",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "Dracos Premium",
+        "id": "b5b4cff6-8d50-42a9-a6e9-1de3ac477a37",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "iDiots Panel",
+        "id": "1787229d-cb4c-4e5d-9c69-ca8a9b3be40a",
+        "tags": ["Phishing"]
     }
 ]
