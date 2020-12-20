@@ -1537,8 +1537,18 @@
         "tags": ["Phishing"]
     },
     {
-        "name": "iDiots Panel",
+        "name": "iDiots",
         "id": "1787229d-cb4c-4e5d-9c69-ca8a9b3be40a",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "FreakzBrothers",
+        "id": "d25287ce-f72f-4259-aaec-6e6e2c3352e9",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "Tiny File Manager",
+        "id": "8bd25e61-a0db-463b-a723-57b558e6c643",
+        "tags": ["Webshell"]
     }
 ]
