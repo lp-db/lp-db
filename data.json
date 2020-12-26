@@ -1300,7 +1300,7 @@
     {
         "name": "Redirected",
         "id": "8bbcbbc3-85a2-44b8-a330-fd9140140a19",
-        "tags": ["Mailer"]
+        "tags": ["Windows", "Loader"]
     },
     {
         "name": "FARM HVNC",
@@ -1550,5 +1550,10 @@
         "name": "Tiny File Manager",
         "id": "8bd25e61-a0db-463b-a723-57b558e6c643",
         "tags": ["Webshell"]
+    },
+    {
+        "name": "NodeZero Chase",
+        "id": "05f0899b-7f17-4cda-b667-b14b81e6466f",
+        "tags": ["Phishing"]
     }
 ]
