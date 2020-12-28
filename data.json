@@ -1555,5 +1555,10 @@
         "name": "NodeZero Chase",
         "id": "05f0899b-7f17-4cda-b667-b14b81e6466f",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "RegretLocker",
+        "id": "08b860e9-b663-4c1e-ba22-7941a6d9c9bc",
+        "tags": ["Windows", "Ransomware"]
     }
 ]
