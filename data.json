@@ -1421,9 +1421,9 @@
         "tags": ["Android"]
     },
     {
-        "name": "Unknown",
+        "name": "xLeet",
         "id": "cf1ff891-10bf-4efd-a072-0c5ce1b82c53",
-        "tags": ["Webshell", "Unknown"]
+        "tags": ["Webshell"]
     },
     {
         "name": "Unknown",
@@ -1560,5 +1560,20 @@
         "name": "RegretLocker",
         "id": "08b860e9-b663-4c1e-ba22-7941a6d9c9bc",
         "tags": ["Windows", "Ransomware"]
+    },
+    {
+        "name": "Vidar Pro",
+        "id": "8985d689-a07a-446a-8774-63b28b559101",
+        "tags": ["Windows", "Stealer", "Loader"]
+    },
+    {
+        "name": "Uploader",
+        "id": "f2465ea5-820e-4da6-a3d4-4800b0633764",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "zTDS",
+        "id": "1cf15aa0-aeef-436d-a86e-97b4148555dd",
+        "tags": ["TDS"]
     }
 ]
