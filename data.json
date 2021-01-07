@@ -1575,5 +1575,15 @@
         "name": "zTDS",
         "id": "1cf15aa0-aeef-436d-a86e-97b4148555dd",
         "tags": ["TDS"]
+    },
+    {
+        "name": "zTDS",
+        "id": "0d8e5146-2ada-428e-82b6-a2cd520ba6ca",
+        "tags": ["TDS"]
+    },
+    {
+        "name": "FFPanel",
+        "id": "8ba8117b-c954-47f9-afc4-1e6e6cb0444b",
+        "tags": ["Android"]
     }
 ]
