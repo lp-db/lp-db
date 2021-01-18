@@ -1590,5 +1590,10 @@
         "name": "Unknown",
         "id": "45f55c26-6391-414f-8de3-4e7fb432c72e",
         "tags": ["Unknown"]
+    },
+    {
+        "name": "Unknown (Protect)",
+        "id": "9b73e914-f7d6-48e9-b7ef-2000868bb0fa",
+        "tags": ["Phishing"]
     }
 ]
