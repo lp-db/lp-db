@@ -1595,5 +1595,10 @@
         "name": "Unknown (Protect)",
         "id": "9b73e914-f7d6-48e9-b7ef-2000868bb0fa",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "Prometheus Host",
+        "id": "4ef687e9-2450-42a8-ac6e-045ac8b407de",
+        "tags": ["Phishing"]
     }
 ]
