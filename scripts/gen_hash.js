@@ -77,14 +77,27 @@ const allPromises = data.map((d) => {
                 ...d,
             }
         })
+        .catch(e => {
+            progress += 1
+
+            // console.log(e)
+            console.log("error:", d.id)
+            readline.cursorTo(process.stdout, 0)
+            process.stdout.write(`Current progress: ${progress}/${pageCnt}`)
+
+            return {
+                hash: "",
+                ...d,
+            }
+        })
 })
 
 Promise.all(allPromises).then((newData) => {
     console.log('')
     console.log('Hashing done')
 
-    const outputJS = 'export default ' + JSON.stringify(newData)
-    fs.writeFile('./src/data.js', outputJS, (err) => {
+    const outputJS = JSON.stringify(newData)
+    fs.writeFile('./src/data.json', outputJS, (err) => {
         if (err) throw err
         console.log('The js data has been saved!')
     })

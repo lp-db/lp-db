@@ -182,8 +182,8 @@ export default {
         }
     },
     mounted() {
-        import('./data.js').then(data => {
-            this.pages = data.default
+        import('./data.json').then(data => {
+            this.pages = data
         })
     },
     watch: {
@@ -193,6 +193,8 @@ export default {
     },
     computed: {
         visiblePages() {
+            if(!this.pages) return []
+
             let ret = this.pages
 
             if(this.searchText !== "") {
