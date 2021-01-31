@@ -289,7 +289,8 @@ export default {
 
                 this.activeTags.splice(0, this.activeTags.length)
 
-                const url = `https://urlscan.io/screenshots/${res[0]}.png`
+                const proxy = 'https://api.allorigins.win/raw?url='
+                const url = `${proxy}https://urlscan.io/screenshots/${res[0]}.png`
                 this.$refs.searchPreview.src = url
                 bh.blockhashFromUrl(url)
                 .then(hash => {
