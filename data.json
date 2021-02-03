@@ -1600,5 +1600,10 @@
         "name": "Prometheus Host",
         "id": "4ef687e9-2450-42a8-ac6e-045ac8b407de",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "Umbrella Server",
+        "id": "1a1576b2-bbff-45c6-9ed0-7644f01884c0",
+        "tags": ["Phishing"]
     }
 ]
