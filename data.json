@@ -1600,5 +1600,15 @@
         "name": "Prometheus Host",
         "id": "4ef687e9-2450-42a8-ac6e-045ac8b407de",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "Umbrella Server",
+        "id": "1a1576b2-bbff-45c6-9ed0-7644f01884c0",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "BADERLINK Easy Panel Ultimate",
+        "id": "17c75827-9f2d-4e97-afa6-ab52194e8a0d",
+        "tags": ["Phishing"]
     }
 ]
