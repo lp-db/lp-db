@@ -1610,5 +1610,10 @@
         "name": "BADERLINK Easy Panel Ultimate",
         "id": "17c75827-9f2d-4e97-afa6-ab52194e8a0d",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "BoyXD",
+        "id": "4e11bf6a-6c60-4d7a-85f2-265f4b0772e9",
+        "tags": ["Phishing"]
     }
 ]
