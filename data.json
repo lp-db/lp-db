@@ -1406,6 +1406,12 @@
         "malpedia": "apk.cerberus"
     },
     {
+        "name": "Cerberus",
+        "id": "558b1cb4-c006-4aad-960d-e7949bfb1670",
+        "tags": ["Android", "Banker"],
+        "malpedia": "apk.cerberus"
+    },
+    {
         "name": "LocKit Server",
         "id": "080d63f2-9c49-4cb7-9098-0a66267c8ec4",
         "tags": ["Phishing"]
@@ -1615,5 +1621,15 @@
         "name": "BoyXD",
         "id": "4e11bf6a-6c60-4d7a-85f2-265f4b0772e9",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "Unknown",
+        "id": "1cc01658-46cc-46ac-ba8a-d884048b1e38",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "Xantinue",
+        "id": "f3b35049-42b9-4b27-bd8f-8cfb2e40833c",
+        "tags": ["Android"]
     }
 ]
