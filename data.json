@@ -1631,5 +1631,15 @@
         "name": "Xantinue",
         "id": "f3b35049-42b9-4b27-bd8f-8cfb2e40833c",
         "tags": ["Android"]
+    },
+    {
+        "name": "Unknown",
+        "id": "a1c7862f-a6be-4bfc-95ff-216660d21db0",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "RG43S",
+        "id": "e758b121-fee0-4a80-9b58-89dd2856e60a",
+        "tags": ["Phishing"]
     }
 ]
