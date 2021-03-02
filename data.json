@@ -1641,5 +1641,20 @@
         "name": "RG43S",
         "id": "e758b121-fee0-4a80-9b58-89dd2856e60a",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "Unknown",
+        "id": "a0ef67dc-dcb8-4b9d-a95e-ccf5e9f10ade",
+        "tags": ["Windows", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "e4223576-a03a-4467-9af5-991c7e7a5f76",
+        "tags": ["Windows", "Unknown"]
+    },
+    {
+        "name": "SpacePirates / Growtopia",
+        "id": "70208b93-844e-4d25-8840-b6713c6c65c3",
+        "tags": ["Windows", "Stealer"]
     }
 ]
