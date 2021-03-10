@@ -1656,5 +1656,15 @@
         "name": "SpacePirates / Growtopia",
         "id": "70208b93-844e-4d25-8840-b6713c6c65c3",
         "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Collector Stealer",
+        "id": "a3f10aa1-bbf6-4357-bcfa-3c56e508a6f7",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Kronos / Ares",
+        "id": "a9777a71-4b70-4527-aec1-6c62de0bbe75",
+        "tags": ["Windows", "Banker"]
     }
 ]
