@@ -1666,5 +1666,10 @@
         "name": "Kronos / Ares",
         "id": "a9777a71-4b70-4527-aec1-6c62de0bbe75",
         "tags": ["Windows", "Banker"]
+    },
+    {
+        "name": "SethLoader",
+        "id": "688912f1-03cd-4290-8459-56fddb088adf",
+        "tags": ["Windows", "Loader"]
     }
 ]
