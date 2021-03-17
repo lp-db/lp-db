@@ -143,6 +143,12 @@
         "malpedia": "apk.anubis"
     },
     {
+        "name": "Anubis",
+        "id": "306543b6-d58a-41f5-9dcf-aaf89f903f70",
+        "tags": ["Android", "Banker"],
+        "malpedia": "apk.anubis"
+    },
+    {
         "name": "BankBot",
         "id": "5463b8e7-45aa-495a-a7fc-b87f0fc75b37",
         "tags": ["Android", "Banker"],
@@ -481,6 +487,12 @@
         "malpedia": "win.blacknet_rat"
     },
     {
+        "name": "BlackNet",
+        "id": "5200aa2f-271d-4171-abd2-fe05375a2095",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.blacknet_rat"
+    },
+    {
         "name": "Borr",
         "id": "6f915e5e-a739-4d01-a819-4d478262f559",
         "tags": ["Windows", "Stealer"],
@@ -787,6 +799,12 @@
         "malpedia": "win.pony"
     },
     {
+        "name": "Pony",
+        "id": "778b7e0b-ff36-4e9d-aec0-9aaff6f47111",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.pony"
+    },
+    {
         "name": "Poulight",
         "id": "6c48fa32-9372-467c-b3e5-db27562114ae",
         "tags": ["Windows", "Stealer"],
@@ -842,6 +860,12 @@
     {
         "name": "Zeus",
         "id": "9ac322f9-124b-4bef-898c-35795da1ae50",
+        "tags": ["Windows", "Banker"],
+        "malpedia": "win.zeus"
+    },
+    {
+        "name": "Zeus",
+        "id": "4e4a7b1c-1de8-473b-b68f-47d369dce959",
         "tags": ["Windows", "Banker"],
         "malpedia": "win.zeus"
     },
@@ -1565,12 +1589,14 @@
     {
         "name": "RegretLocker",
         "id": "08b860e9-b663-4c1e-ba22-7941a6d9c9bc",
-        "tags": ["Windows", "Ransomware"]
+        "tags": ["Windows", "Ransomware"],
+        "malpedia": "win.regretlocker"
     },
     {
         "name": "Vidar Pro",
         "id": "8985d689-a07a-446a-8774-63b28b559101",
-        "tags": ["Windows", "Stealer", "Loader"]
+        "tags": ["Windows", "Stealer", "Loader"],
+        "malpedia": "win.vidar"
     },
     {
         "name": "Uploader",
@@ -1665,11 +1691,23 @@
     {
         "name": "Kronos / Ares",
         "id": "a9777a71-4b70-4527-aec1-6c62de0bbe75",
-        "tags": ["Windows", "Banker"]
+        "tags": ["Windows", "Banker"],
+        "malpedia": "win.kronos"
     },
     {
         "name": "SethLoader",
         "id": "688912f1-03cd-4290-8459-56fddb088adf",
         "tags": ["Windows", "Loader"]
+    },
+    {
+        "name": "Unknown",
+        "id": "d0634838-7fa2-4118-81cb-a14f955c8cca",
+        "tags": ["Windows", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "7bc554f7-a8af-471b-a012-0ebc55e880ae",
+        "tags": ["Android", "Banker"]
     }
 ]
+
