@@ -1468,7 +1468,7 @@
     {
         "name": "Channel",
         "id": "4a726ed3-910c-4477-aa9f-87c80030430c",
-        "tags": ["Unknown"]
+        "tags": ["Windows"]
     },
     {
         "name": "Unknown",
@@ -1649,9 +1649,9 @@
         "tags": ["Phishing"]
     },
     {
-        "name": "Unknown",
+        "name": "Bandi",
         "id": "1cc01658-46cc-46ac-ba8a-d884048b1e38",
-        "tags": ["Unknown"]
+        "tags": ["Windows"]
     },
     {
         "name": "Xantinue",
@@ -1708,6 +1708,10 @@
         "name": "Unknown",
         "id": "7bc554f7-a8af-471b-a012-0ebc55e880ae",
         "tags": ["Android", "Banker"]
+    },
+    {
+        "name": "Cypress",
+        "id": "61484afe-5099-446a-a5bd-d11bb70e4f25",
+        "tags": ["Windows", "Stealer"]
     }
 ]
-
