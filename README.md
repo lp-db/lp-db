@@ -60,7 +60,7 @@ If the login page has not been identified, the urlscan.io uuid is sufficient.
 
 External links can be added in order to better understand the context in which the panel is used.
 
-### Tweeter
+### Twitter
 
 You can also message me on [Twitter](https://twitter.com/DrStache_) with the urlscan.io link or tag me.
 
