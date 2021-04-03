@@ -1649,9 +1649,9 @@
         "tags": ["Phishing"]
     },
     {
-        "name": "Bandi",
+        "name": "Saint Stealer",
         "id": "1cc01658-46cc-46ac-ba8a-d884048b1e38",
-        "tags": ["Windows"]
+        "tags": ["Windows", "Stealer"]
     },
     {
         "name": "Xantinue",
@@ -1712,6 +1712,16 @@
     {
         "name": "Cypress",
         "id": "61484afe-5099-446a-a5bd-d11bb70e4f25",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "BloodyStealer",
+        "id": "036b941a-116c-46af-89ca-f09243400b81",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Avalon",
+        "id": "d9a1042e-9677-4fc2-8ed2-5372c75a5050",
         "tags": ["Windows", "Stealer"]
     }
 ]
