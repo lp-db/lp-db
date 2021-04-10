@@ -1579,7 +1579,7 @@
     {
         "name": "Tiny File Manager",
         "id": "8bd25e61-a0db-463b-a723-57b558e6c643",
-        "tags": ["Webshell"]
+        "tags": ["File Manager"]
     },
     {
         "name": "NodeZero Chase",
@@ -1723,5 +1723,15 @@
         "name": "Avalon",
         "id": "d9a1042e-9677-4fc2-8ed2-5372c75a5050",
         "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "pwndrop",
+        "id": "6596b0e0-4148-40ec-83ae-9597e930a2be",
+        "tags": ["File Manager"]
+    },
+    {
+        "name": "Rafel-Rat",
+        "id": "1c77ea41-c6ee-46a0-bf66-2495906f6475",
+        "tags": ["Android", "Spyware"]
     }
 ]
