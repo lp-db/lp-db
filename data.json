@@ -1705,9 +1705,9 @@
         "tags": ["Windows", "Loader"]
     },
     {
-        "name": "Unknown",
+        "name": "SethLoader",
         "id": "d0634838-7fa2-4118-81cb-a14f955c8cca",
-        "tags": ["Windows", "Unknown"]
+        "tags": ["Windows", "Loader"]
     },
     {
         "name": "Unknown",
