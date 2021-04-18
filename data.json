@@ -1654,6 +1654,11 @@
         "tags": ["Windows", "Stealer"]
     },
     {
+        "name": "Saint Stealer",
+        "id": "4aaf8d58-0789-475b-8596-e95c4b562e36",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
         "name": "Xantinue",
         "id": "f3b35049-42b9-4b27-bd8f-8cfb2e40833c",
         "tags": ["Android"]
