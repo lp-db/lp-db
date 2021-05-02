@@ -1738,5 +1738,25 @@
         "name": "Rafel-Rat",
         "id": "1c77ea41-c6ee-46a0-bf66-2495906f6475",
         "tags": ["Android", "Spyware"]
+    },
+    {
+        "name": "Umbra Loader",
+        "id": "c84db832-5d50-473c-a689-021bd3a24e77",
+        "tags": ["Windows", "Loader"]
+    },
+    {
+        "name": "TVRAT",
+        "id": "907eeaa4-f09a-4abb-b186-ef4c29a34d12",
+        "tags": ["Windows"]
+    },
+    {
+        "name": "Unknown",
+        "id": "fef6dada-781f-404b-b6ac-96c8979a3eaf",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "Ares",
+        "id": "f303f340-68b2-45c2-ae8c-5f82e194ff34",
+        "tags": ["Windows"]
     }
 ]
