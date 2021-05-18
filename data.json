@@ -1758,5 +1758,20 @@
         "name": "Ares",
         "id": "f303f340-68b2-45c2-ae8c-5f82e194ff34",
         "tags": ["Windows"]
+    },
+    {
+        "name": "Sh1zo1der",
+        "id": "d2c877f9-1e59-4551-81ae-f285f947b5ea",
+        "tags": ["Windows"]
+    },
+    {
+        "name": "Avatar",
+        "id": "8d54550e-e3f8-4696-8295-e04938deb292",
+        "tags": ["Windows", "Loader"]
+    },
+    {
+        "name": "360Dev TrackSystem",
+        "id": "e91c944b-230f-4690-aa3f-2c179d6a86f9",
+        "tags": ["Windows"]
     }
 ]
