@@ -529,6 +529,12 @@
         "malpedia": "win.diamondfox"
     },
     {
+        "name": "DiamondFox / LittleThief",
+        "id": "efd5c603-05ce-4cb0-a033-113d90f1a8d9",
+        "tags": ["Windows", "Stealer", "POS"],
+        "malpedia": "win.diamondfox"
+    },
+    {
         "name": "Eredel",
         "id": "6637524f-8d88-480e-afa3-ba8e690233e5",
         "tags": ["Windows", "Stealer"],
@@ -1773,5 +1779,21 @@
         "name": "360Dev TrackSystem",
         "id": "e91c944b-230f-4690-aa3f-2c179d6a86f9",
         "tags": ["Windows"]
+    },
+    {
+        "name": "Askar",
+        "id": "9e852f06-a923-41f2-9f90-480e94a4ced3",
+        "tags": ["Windows"]
+    },
+    {
+        "name": "Zeus",
+        "id": "f742ab47-91d8-48b3-a94f-e45ce7866832",
+        "tags": ["Windows", "Banker"],
+        "malpedia": "win.zeus"
+    },
+    {
+        "name": "EvilBear",
+        "id": "047a0926-0d93-4b7c-838f-596a58ffe4c1",
+        "tags": ["Windows", "Miner"]
     }
 ]
