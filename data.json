@@ -1795,5 +1795,20 @@
         "name": "EvilBear",
         "id": "047a0926-0d93-4b7c-838f-596a58ffe4c1",
         "tags": ["Windows", "Miner"]
+    },
+    {
+        "name": "Mythic",
+        "id": "cf644b33-0e4c-4730-bdd1-09666f8bc903",
+        "tags": ["Windows"]
+    },
+    {
+        "name": "HiddenTear",
+        "id": "be7a6b23-7861-44e2-bd2d-77ca69a14c63",
+        "tags": ["Windows", "Ransomware"]
+    },
+    {
+        "name": "RainProxy",
+        "id": "317d2b63-2d7d-443d-8c3d-6fce7f8aae62",
+        "tags": ["Proxy"]
     }
 ]
