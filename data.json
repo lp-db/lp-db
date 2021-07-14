@@ -1792,6 +1792,12 @@
         "malpedia": "win.zeus"
     },
     {
+        "name": "Zeus",
+        "id": "5a1e43db-943a-4a20-968c-60bb1fd0dc8b",
+        "tags": ["Windows", "Banker"],
+        "malpedia": "win.zeus"
+    },
+    {
         "name": "EvilBear",
         "id": "047a0926-0d93-4b7c-838f-596a58ffe4c1",
         "tags": ["Windows", "Miner"]
@@ -1810,5 +1816,10 @@
         "name": "RainProxy",
         "id": "317d2b63-2d7d-443d-8c3d-6fce7f8aae62",
         "tags": ["Proxy"]
+    },
+    {
+        "name": "SicherheitRAT",
+        "id": "ab798f65-6a2f-4a5e-a29f-9bd9b77eef16",
+        "tags": ["Windows"]
     }
 ]
