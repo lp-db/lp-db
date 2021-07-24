@@ -1157,6 +1157,11 @@
         "tags": ["Windows", "HVNC"]
     },
     {
+        "name": "DarkVNC",
+        "id": "640320f4-0325-414c-b909-11e8cfb09342",
+        "tags": ["Windows", "HVNC"]
+    },
+    {
         "name": "APKBuilder",
         "id": "d7565d46-ef52-405b-a6bc-011404c4a3ee",
         "tags": ["Android"]
@@ -1726,6 +1731,11 @@
         "tags": ["Windows", "Stealer"]
     },
     {
+        "name": "Cypress",
+        "id": "0d95aeec-9835-43fa-b01a-a0d3514b4322",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
         "name": "BloodyStealer",
         "id": "036b941a-116c-46af-89ca-f09243400b81",
         "tags": ["Windows", "Stealer"]
@@ -1821,5 +1831,16 @@
         "name": "SicherheitRAT",
         "id": "ab798f65-6a2f-4a5e-a29f-9bd9b77eef16",
         "tags": ["Windows"]
+    },
+    {
+        "name": "Toddler",
+        "id": "b534403c-be22-40ab-8a98-c4fe5190454c",
+        "tags": ["Android", "Banker"],
+        "malpedia": "apk.anatsa"
+    },
+    {
+        "name": "Vertex",
+        "id": "e1115f92-4c9c-4af3-a43b-05f7bafcb7f5",
+        "tags": ["Windows", "Stealer"]
     }
 ]
