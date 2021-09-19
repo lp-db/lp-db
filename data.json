@@ -45,6 +45,12 @@
         "malpedia": "win.agent_tesla"
     },
     {
+        "name": "AgentTesla / Mana",
+        "id": "87cf458c-8ba2-48c2-ba62-c02d0d15b0a7",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.agent_tesla"
+    },
+    {
         "name": "AgentTesla",
         "id": "7f19e626-cb9c-4f6b-9a5b-ea73596cf3b8",
         "tags": ["Windows", "Stealer"],
@@ -705,6 +711,18 @@
     {
         "name": "LiteHTTP",
         "id": "4e88c42f-67ea-4649-8da0-9e5cee81f0fb",
+        "tags": ["Windows", "Loader"],
+        "malpedia": "win.litehttp"
+    },
+    {
+        "name": "LiteHTTP / PolluxHTTP",
+        "id": "09e2fb51-2df5-4122-a3d3-8d4050a98871",
+        "tags": ["Windows", "Loader"],
+        "malpedia": "win.litehttp"
+    },
+    {
+        "name": "LiteHTTP / CoreBot",
+        "id": "ac1513b7-ff07-40be-b7a5-a728ec0f491f",
         "tags": ["Windows", "Loader"],
         "malpedia": "win.litehttp"
     },
@@ -1874,6 +1892,27 @@
         "name": "Tsar CookieStealer",
         "id": "31f533aa-da16-4284-8856-8c52ea8ed85b",
         "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Lilith",
+        "id": "da76c351-59f1-4d3d-b774-145bb179e437",
+        "tags": ["Windows"],
+        "malpedia": "win.lilith"
+    },
+    {
+        "name": "Vulturi",
+        "id": "8021f352-d9d1-45ac-89d1-54b9567a7a03",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.vulturi"
+    },
+    {
+        "name": "Lootr",
+        "id": "5ab7efb4-bbbe-4459-8a40-144ef5c9d676",
+        "tags": ["Windows"]
+    },
+    {
+        "name": "SOVA",
+        "id": "7a879106-3fde-4997-91b9-3a088041aed8",
+        "tags": ["Android", "Banker"]
     }
 ]
-
