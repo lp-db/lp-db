@@ -1914,5 +1914,10 @@
         "name": "SOVA",
         "id": "7a879106-3fde-4997-91b9-3a088041aed8",
         "tags": ["Android", "Banker"]
+    },
+    {
+        "name": "Unknown",
+        "id": "3f2f6e39-ad6a-43c3-b261-a413dccdd653",
+        "tags": ["Unknown"]
     }
 ]
