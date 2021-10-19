@@ -1,7 +1,8 @@
 <template>
-    <div class="col-md-4 mb-1">
+    <div class="col-md-6 col-lg-4 mb-1">
         <div class="login-page rounded shadow-sm">
             <img class="cover" loading="lazy" :src="`https://urlscan.io/screenshots/${id}.png`" />
+            <div class="placeholder"></div>
             <div class="content" @click="$emit('click', id)">
                 <div class="hover">
                     <h4 class="text-white text-decoration-none">{{ name }}</h4>
@@ -39,7 +40,17 @@ export default {
     margin-bottom: 4px;
 }
 
+.placeholder {
+    width: 100%;
+    background: #ebeeef;
+    border-radius: .5rem;
+    padding-bottom: 75%;
+}
+
 .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
