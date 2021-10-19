@@ -167,6 +167,12 @@
         "malpedia": "apk.anubis"
     },
     {
+        "name": "Anubis / TURBOT",
+        "id": "3862d3ba-a129-4bae-9db7-1a23e554423c",
+        "tags": ["Android", "Banker"],
+        "malpedia": "apk.anubis"
+    },
+    {
         "name": "CometBot",
         "id": "5e56363e-a74c-46b4-be12-40e0bd4d45d6",
         "tags": ["Android", "Banker"],
@@ -1766,6 +1772,11 @@
         "tags": ["Windows", "Stealer"]
     },
     {
+        "name": "Cypress / SK-Looter",
+        "id": "32966ea0-c8e7-44e9-a3c2-a8e1fff60b39",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
         "name": "BloodyStealer",
         "id": "036b941a-116c-46af-89ca-f09243400b81",
         "tags": ["Windows", "Stealer"]
@@ -1919,5 +1930,26 @@
         "name": "Unknown",
         "id": "3f2f6e39-ad6a-43c3-b261-a413dccdd653",
         "tags": ["Unknown"]
+    },
+    {
+        "name": "GrandaMisha",
+        "id": "78136533-882c-4e30-822b-43e97c5b5bb8",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "reNgine",
+        "id": "ff24a8f8-3984-47be-a93e-31a0078b459c",
+        "tags": ["Unknown"]
+    },
+    {
+        "name": "jesperStealer",
+        "id": "b0d8db5b-2601-4f3a-b44d-e64cca571fda",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Matanbuchus",
+        "id": "2fbc2cf9-8228-43a0-9bf6-a36f0b522dc6",
+        "tags": ["Windows", "Loader"],
+        "malpedia": "win.matanbuchus"
     }
 ]
