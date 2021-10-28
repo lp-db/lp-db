@@ -1951,5 +1951,15 @@
         "id": "2fbc2cf9-8228-43a0-9bf6-a36f0b522dc6",
         "tags": ["Windows", "Loader"],
         "malpedia": "win.matanbuchus"
+    },
+    {
+        "name": "Unknown",
+        "id": "ff1cb548-9fd0-442f-8ac8-cb4445f350a8",
+        "tags": ["Windows", "Loader"]
+    },
+    {
+        "name": "Black Roads",
+        "id": "928a905f-f3ed-4359-96df-ae52f1ec75cd",
+        "tags": ["Phishing"]
     }
 ]
