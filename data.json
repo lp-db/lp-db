@@ -1961,5 +1961,15 @@
         "name": "Black Roads",
         "id": "928a905f-f3ed-4359-96df-ae52f1ec75cd",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "Black Roads",
+        "id": "eb53169e-ed9f-4327-9f52-6ba22639e42f",
+        "tags": ["Phishing"]
+    },
+    {
+        "name": "BRChecker",
+        "id": "0b9d46c0-69ec-416a-a9da-ea24531fd0db",
+        "tags": ["Bruteforcer"]
     }
 ]
