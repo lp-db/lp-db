@@ -1971,5 +1971,10 @@
         "name": "BRChecker",
         "id": "0b9d46c0-69ec-416a-a9da-ea24531fd0db",
         "tags": ["Bruteforcer"]
+    },
+    {
+        "name": "Unknown",
+        "id": "4f7a1531-1706-4c19-9eb7-d4b44aae083d",
+        "tags": ["Windows", "Stealer"]
     }
 ]
