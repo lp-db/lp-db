@@ -1976,5 +1976,15 @@
         "name": "Unknown",
         "id": "4f7a1531-1706-4c19-9eb7-d4b44aae083d",
         "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Uname",
+        "id": "7611d236-abd1-4632-8378-c585db81851e",
+        "tags": ["Windows", "Unknown"]
+    },
+    {
+        "name": "Josh",
+        "id": "bab28ef6-e4ed-42af-bd9e-308d4eb20154",
+        "tags": ["Unknown"]
     }
 ]
