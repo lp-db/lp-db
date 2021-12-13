@@ -607,6 +607,12 @@
         "malpedia": "win.gomorrah_stealer"
     },
     {
+        "name": "Gomorrah",
+        "id": "ffa62fb4-e0f5-4f8f-899f-5ed4837b62f6",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.gomorrah_stealer"
+    },
+    {
         "name": "Gozi2RM3",
         "id": "b5cb4463-eaa4-40c9-9178-080de214f0f3",
         "tags": ["Windows", "Banker"],
