@@ -1992,5 +1992,10 @@
         "name": "Josh",
         "id": "bab28ef6-e4ed-42af-bd9e-308d4eb20154",
         "tags": ["Unknown"]
+    },
+    {
+        "name": "Kamikaze",
+        "id": "a06b1d9d-eb41-44bb-9314-0c7d259b338c",
+        "tags": ["Phishing"]
     }
 ]
