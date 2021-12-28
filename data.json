@@ -1997,5 +1997,10 @@
         "name": "Kamikaze",
         "id": "a06b1d9d-eb41-44bb-9314-0c7d259b338c",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "Ermac",
+        "id": "b063f1d3-45d3-4d70-a491-446c2599108e",
+        "tags": ["Android", "Banker"]
     }
 ]
