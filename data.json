@@ -73,6 +73,12 @@
         "malpedia": "win.amadey"
     },
     {
+        "name": "Amadey",
+        "id": "ee8c3ec4-f33b-4baa-b832-023ba03ea672",
+        "tags": ["Windows", "Loader"],
+        "malpedia": "win.amadey"
+    },
+    {
         "name": "Arcane",
         "id": "09d70d8d-ab9f-4f6f-a16b-cc66340681d6",
         "tags": ["Windows", "Stealer"]
@@ -2002,5 +2008,10 @@
         "name": "Ermac",
         "id": "b063f1d3-45d3-4d70-a491-446c2599108e",
         "tags": ["Android", "Banker"]
+    },
+    {
+        "name": "Mars",
+        "id": "000fe4f4-2012-4423-aa0d-0ec5f970a68b",
+        "tags": ["Windows", "Stealer"]
     }
 ]
