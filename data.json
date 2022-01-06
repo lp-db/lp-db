@@ -1381,7 +1381,7 @@
         "tags": ["Android", "Spyware"]
     },
     {
-        "name": "Redirected",
+        "name": "Campo Loader",
         "id": "8bbcbbc3-85a2-44b8-a330-fd9140140a19",
         "tags": ["Windows", "Loader"]
     },
@@ -1550,7 +1550,7 @@
         "tags": ["TDS", "Unknown"]
     },
     {
-        "name": "Unknown",
+        "name": "Jupyter",
         "id": "96315669-7796-40b6-827a-0251287d595a",
         "tags": ["Unknown"]
     },
