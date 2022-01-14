@@ -1611,6 +1611,11 @@
         "tags": ["Windows", "Miner"]
     },
     {
+        "name": "SupremeMiner",
+        "id": "4a88fe9f-656c-4536-8e8d-1d4407f9a752",
+        "tags": ["Windows", "Miner"]
+    },
+    {
         "name": "iTrueKit",
         "id": "88800094-6408-44a6-a97b-d67bdfe94798",
         "tags": ["Phishing"]
@@ -2013,5 +2018,10 @@
         "name": "Mars",
         "id": "000fe4f4-2012-4423-aa0d-0ec5f970a68b",
         "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "CookieStealer",
+        "id": "006d9a83-b9b3-4cfc-a6c4-8d2bc06b5b95",
+        "tags": ["Unknown"]
     }
 ]
