@@ -1866,6 +1866,12 @@
         "malpedia": "win.zeus"
     },
     {
+        "name": "Zeus",
+        "id": "6958f910-d987-41a4-90fe-12d4b1fd412d",
+        "tags": ["Windows", "Banker"],
+        "malpedia": "win.zeus"
+    },
+    {
         "name": "EvilBear",
         "id": "047a0926-0d93-4b7c-838f-596a58ffe4c1",
         "tags": ["Windows", "Miner"]
@@ -2023,5 +2029,10 @@
         "name": "CookieStealer",
         "id": "006d9a83-b9b3-4cfc-a6c4-8d2bc06b5b95",
         "tags": ["Unknown"]
+    },
+    {
+        "name": "RCA1 Stresser",
+        "id": "78e4672c-04fd-42d0-b882-6d684c89074e",
+        "tags": ["DDoS"]
     }
 ]
