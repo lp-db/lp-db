@@ -51,6 +51,12 @@
         "malpedia": "win.agent_tesla"
     },
     {
+        "name": "AgentTesla / Mana",
+        "id": "758bf0c8-990f-44bd-8b68-e35e62f8829e",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.agent_tesla"
+    },
+    {
         "name": "AgentTesla",
         "id": "7f19e626-cb9c-4f6b-9a5b-ea73596cf3b8",
         "tags": ["Windows", "Stealer"],
