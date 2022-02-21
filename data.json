@@ -2040,5 +2040,10 @@
         "name": "RCA1 Stresser",
         "id": "78e4672c-04fd-42d0-b882-6d684c89074e",
         "tags": ["DDoS"]
+    },
+    {
+        "name": "vCopy",
+        "id": "d365dd3e-e72b-440b-941e-1f254cc34e9c",
+        "tags": ["Android"]
     }
 ]
