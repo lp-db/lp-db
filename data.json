@@ -2045,5 +2045,15 @@
         "name": "vCopy",
         "id": "d365dd3e-e72b-440b-941e-1f254cc34e9c",
         "tags": ["Android"]
+    },
+    {
+        "name": "Conti",
+        "id": "f954ce82-f4ab-40e3-a5e9-47dd39f53012",
+        "tags": ["Windows", "Ransomware"]
+    },
+    {
+        "name": "Conti",
+        "id": "4299a90b-3835-4ea9-8fb1-5824d60dce55",
+        "tags": ["Windows", "Ransomware"]
     }
 ]
