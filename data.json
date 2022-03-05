@@ -2049,11 +2049,18 @@
     {
         "name": "Conti",
         "id": "f954ce82-f4ab-40e3-a5e9-47dd39f53012",
-        "tags": ["Windows", "Ransomware"]
+        "tags": ["Windows", "Ransomware"],
+        "malpedia": "win.conti"
     },
     {
         "name": "Conti",
         "id": "4299a90b-3835-4ea9-8fb1-5824d60dce55",
-        "tags": ["Windows", "Ransomware"]
+        "tags": ["Windows", "Ransomware"],
+        "malpedia": "win.conti"
+    },
+    {
+        "name": "BlackGuard",
+        "id": "38acb748-fcaa-4f64-ad7c-a64ada333e1c",
+        "tags": ["Windows", "Stealer"]
     }
 ]
