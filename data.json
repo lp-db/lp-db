@@ -2062,5 +2062,15 @@
         "name": "BlackGuard",
         "id": "38acb748-fcaa-4f64-ad7c-a64ada333e1c",
         "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Unknown",
+        "id": "6965c7b7-30aa-4820-89fd-8d20dfa8a7ac",
+        "tags": ["Loader", "Unknown"]
+    },
+    {
+        "name": "Unknown",
+        "id": "d72f9be1-cc07-45d5-888a-1af1f2175692",
+        "tags": ["Ransomware", "Unknown"]
     }
 ]
