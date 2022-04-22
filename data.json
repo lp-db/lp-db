@@ -2072,5 +2072,20 @@
         "name": "Unknown",
         "id": "d72f9be1-cc07-45d5-888a-1af1f2175692",
         "tags": ["Ransomware", "Unknown"]
+    },
+    {
+        "name": "Ginzo Miner",
+        "id": "840e8f58-aa4e-4db2-b463-6f892bb69d9f",
+        "tags": ["Windows", "Ginzo", "Miner"]
+    },
+    {
+        "name": "Ginzo Stealer",
+        "id": "822500d1-94bd-4ea0-bcb8-90db8fb5f244",
+        "tags": ["Windows", "Ginzo", "Stealer"]
+    },
+    {
+        "name": "Magnum Crypter",
+        "id": "f8b12be4-53a3-44cb-a13d-60a450598c31",
+        "tags": ["Windows", "Crypter"]
     }
 ]
