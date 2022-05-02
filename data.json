@@ -2087,5 +2087,10 @@
         "name": "Magnum Crypter",
         "id": "f8b12be4-53a3-44cb-a13d-60a450598c31",
         "tags": ["Windows", "Crypter"]
+    },
+    {
+        "name": "SystemBC",
+        "id": "93c989bd-019d-4cee-a9b7-90ecd31f10d7",
+        "tags": ["Windows", "RAT"]
     }
 ]
