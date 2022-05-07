@@ -2091,6 +2091,18 @@
     {
         "name": "SystemBC",
         "id": "93c989bd-019d-4cee-a9b7-90ecd31f10d7",
-        "tags": ["Windows", "RAT"]
+        "tags": ["Windows", "RAT"],
+        "malpedia": "win.systembc"
+    },
+    {
+        "name": "Gozi IAP2",
+        "id": "c261fd38-61bd-4c5f-8524-335be3242a1e",
+        "tags": ["Windows", "Banker"],
+        "malpedia": "win.gozi"
+    },
+    {
+        "name": "yii-sms",
+        "id": "ab4efca0-061a-414a-8f01-97bddc19a8b6",
+        "tags": ["Phishing"]
     }
 ]
