@@ -2024,7 +2024,14 @@
     {
         "name": "Ermac",
         "id": "b063f1d3-45d3-4d70-a491-446c2599108e",
-        "tags": ["Android", "Banker"]
+        "tags": ["Android", "Banker"],
+        "malpedia" : "apk.ermac"
+    },
+    {
+        "name": "Ermac2 / MetaDroid",
+        "id": "16e7fa22-0288-4fcb-aa14-6c95b43bced8",
+        "tags": ["Android", "Banker"],
+        "malpedia" : "apk.ermac"
     },
     {
         "name": "Mars",
@@ -2084,6 +2091,11 @@
         "tags": ["Windows", "Ginzo", "Stealer"]
     },
     {
+        "name": "Ginzo Stealer",
+        "id": "64a1373d-dfa0-459d-b681-554ca8f404d6",
+        "tags": ["Windows", "Ginzo", "Stealer"]
+    },
+    {
         "name": "Magnum Crypter",
         "id": "f8b12be4-53a3-44cb-a13d-60a450598c31",
         "tags": ["Windows", "Crypter"]
@@ -2104,5 +2116,16 @@
         "name": "yii-sms",
         "id": "ab4efca0-061a-414a-8f01-97bddc19a8b6",
         "tags": ["Phishing"]
+    },
+    {
+        "name": "PennyWise",
+        "id": "a0b2bda3-9f16-46e1-9ef8-22efdda76cc2",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "PrivateLoader",
+        "id": "7daeda81-1209-4ba4-8f26-7134648cad51",
+        "tags": ["Windows", "Loader"],
+        "malpedia" : "win.privateloader"
     }
 ]
