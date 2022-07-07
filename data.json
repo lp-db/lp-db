@@ -1888,6 +1888,11 @@
         "tags": ["Windows"]
     },
     {
+        "name": "Mythic",
+        "id": "a0d44c46-c4fa-4c2e-b07e-ef0e634f6dab",
+        "tags": ["Windows"]
+    },
+    {
         "name": "HiddenTear",
         "id": "be7a6b23-7861-44e2-bd2d-77ca69a14c63",
         "tags": ["Windows", "Ransomware"]
@@ -2127,5 +2132,16 @@
         "id": "7daeda81-1209-4ba4-8f26-7134648cad51",
         "tags": ["Windows", "Loader"],
         "malpedia" : "win.privateloader"
+    },
+    {
+        "name": "MikuBot / TinyNuke",
+        "id": "1bcf6b57-11ab-433a-8138-b0327d5d8d61",
+        "tags": ["Windows", "Banker"],
+        "malpedia" : "win.tinynuke"
+    },
+    {
+        "name": "Unknown",
+        "id": "e8c416a9-969f-4c15-8b66-59e85aa99d81",
+        "tags": ["Windows", "Loader"]
     }
 ]
