@@ -841,6 +841,12 @@
         "malpedia": "win.oski"
     },
     {
+        "name": "Oski",
+        "id": "ca3c2a2d-4617-49b1-8223-70ac00baee10",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.oski"
+    },
+    {
         "name": "ParasiteHTTP",
         "id": "9b0ce6ff-0834-4c73-bfb9-95b3d0cae6ba",
         "tags": ["Windows", "Stealer"],
@@ -2143,5 +2149,16 @@
         "name": "Unknown",
         "id": "e8c416a9-969f-4c15-8b66-59e85aa99d81",
         "tags": ["Windows", "Loader"]
+    },
+    {
+        "name": "Unknown",
+        "id": "68b48e10-5bee-4313-9a48-b7bdb391a09f",
+        "tags": ["Windows", "Unknown"]
+    },
+    {
+        "name": "Deimos",
+        "id": "0f7580eb-7b1e-47ac-8b46-9055fc04c58c",
+        "tags": ["Windows", "RAT"],
+        "malpedia": "win.deimos"
     }
 ]
