@@ -2160,5 +2160,20 @@
         "id": "0f7580eb-7b1e-47ac-8b46-9055fc04c58c",
         "tags": ["Windows", "RAT"],
         "malpedia": "win.deimos"
+    },
+    {
+        "name": "Lumma",
+        "id": "7cc36a42-691f-4655-92d8-d973acfee622",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "HaiBonBay",
+        "id": "0588aea7-2998-4980-b72e-5724e557b0d9",
+        "tags": ["Windows"]
+    },
+    {
+        "name": "ChameleonProject / 000stealler",
+        "id": "28598173-973f-49e1-9b47-e0ae509a1267",
+        "tags": ["windows", "Stealer"]
     }
 ]
