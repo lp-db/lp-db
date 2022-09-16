@@ -2175,5 +2175,16 @@
         "name": "ChameleonProject / 000stealler",
         "id": "28598173-973f-49e1-9b47-e0ae509a1267",
         "tags": ["windows", "Stealer"]
+    },
+    {
+        "name": "Erbium",
+        "id": "b8ac252f-ba55-4db1-901b-0b4da56c44e2",
+        "tags": ["windows", "Stealer"],
+        "malpedia": "win.erbium_stealer"
+    },
+    {
+        "name": "Evisyn",
+        "id": "09670f49-4e07-4914-8335-9d8a55ba298e",
+        "tags": ["windows", "Stealer"]
     }
 ]
