@@ -2186,5 +2186,10 @@
         "name": "Evisyn",
         "id": "09670f49-4e07-4914-8335-9d8a55ba298e",
         "tags": ["windows", "Stealer"]
+    },
+    {
+        "name": "BatLoader",
+        "id": "a1074371-f4ee-49d8-bcd8-95b8dea2f2ea",
+        "tags": ["windows", "Loader"]
     }
 ]
