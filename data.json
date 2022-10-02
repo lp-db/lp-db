@@ -2146,7 +2146,7 @@
         "malpedia" : "win.tinynuke"
     },
     {
-        "name": "Unknown",
+        "name": "Crashed Loader",
         "id": "e8c416a9-969f-4c15-8b66-59e85aa99d81",
         "tags": ["Windows", "Loader"]
     },
