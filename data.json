@@ -625,6 +625,12 @@
         "malpedia": "win.gomorrah_stealer"
     },
     {
+        "name": "Gomorrah",
+        "id": "10741fe6-b84e-434e-90c6-04ca833ef271",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.gomorrah_stealer"
+    },
+    {
         "name": "Gozi2RM3",
         "id": "b5cb4463-eaa4-40c9-9178-080de214f0f3",
         "tags": ["Windows", "Banker"],
@@ -2191,5 +2197,15 @@
         "name": "BatLoader",
         "id": "a1074371-f4ee-49d8-bcd8-95b8dea2f2ea",
         "tags": ["windows", "Loader"]
+    },
+    {
+        "name": "WarHawk",
+        "id": "18d38e41-2c05-4dfb-b008-0286db50d057",
+        "tags": ["windows"]
+    },
+    {
+        "name": "DarkCloud",
+        "id": "a0b9f181-519f-4441-a14d-6214a436e7d5",
+        "tags": ["Unknown"]
     }
 ]
