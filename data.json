@@ -2180,32 +2180,38 @@
     {
         "name": "ChameleonProject / 000stealler",
         "id": "28598173-973f-49e1-9b47-e0ae509a1267",
-        "tags": ["windows", "Stealer"]
+        "tags": ["Windows", "Stealer"]
     },
     {
         "name": "Erbium",
         "id": "b8ac252f-ba55-4db1-901b-0b4da56c44e2",
-        "tags": ["windows", "Stealer"],
+        "tags": ["Windows", "Stealer"],
         "malpedia": "win.erbium_stealer"
     },
     {
         "name": "Evisyn",
         "id": "09670f49-4e07-4914-8335-9d8a55ba298e",
-        "tags": ["windows", "Stealer"]
+        "tags": ["Windows", "Stealer"]
     },
     {
         "name": "BatLoader",
         "id": "a1074371-f4ee-49d8-bcd8-95b8dea2f2ea",
-        "tags": ["windows", "Loader"]
+        "tags": ["Windows", "Loader"]
     },
     {
         "name": "WarHawk",
         "id": "18d38e41-2c05-4dfb-b008-0286db50d057",
-        "tags": ["windows"]
+        "tags": ["Windows"]
     },
     {
         "name": "DarkCloud",
         "id": "a0b9f181-519f-4441-a14d-6214a436e7d5",
         "tags": ["Unknown"]
+    },
+    {
+        "name": "AcridRain",
+        "id": "12cf6dee-68a6-4030-a548-b1d527cf9468",
+        "tags": ["Windows", "Stealer"],
+        "malpedia": "win.acridrain"
     }
 ]
