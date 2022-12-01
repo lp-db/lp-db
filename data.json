@@ -1857,7 +1857,7 @@
         "tags": ["Windows"]
     },
     {
-        "name": "Avatar",
+        "name": "Avatar / Modern Loader",
         "id": "8d54550e-e3f8-4696-8295-e04938deb292",
         "tags": ["Windows", "Loader"]
     },
@@ -2213,5 +2213,25 @@
         "id": "12cf6dee-68a6-4030-a548-b1d527cf9468",
         "tags": ["Windows", "Stealer"],
         "malpedia": "win.acridrain"
+    },
+    {
+        "name": "Laplas Clipper",
+        "id": "c1586096-16a1-429e-bf8f-e9f65cbcac04",
+        "tags": ["Windows", "Clipper"]
+    },
+    {
+        "name": "Aurora Stealer",
+        "id": "6aa745f1-7411-4670-beb9-4d48168dcd48",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Titan / Ghisler",
+        "id": "daca0fcd-bbc9-48c8-810d-89fee466b639",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Grandoreiro",
+        "id": "d330256e-98ad-4e38-836d-56850f284e25",
+        "tags": ["Windows", "Banker"]
     }
 ]
