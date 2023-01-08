@@ -2233,5 +2233,25 @@
         "name": "Grandoreiro",
         "id": "d330256e-98ad-4e38-836d-56850f284e25",
         "tags": ["Windows", "Banker"]
+    },
+    {
+        "name": "Mint",
+        "id": "91e5e62c-ed40-4226-b8c4-dc845506ae93",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Rhadamanthys",
+        "id": "f0ee3cee-f88e-4c62-9a9f-b3c370d52e98",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "BlackGuard",
+        "id": "a1ccc53d-ba1f-4384-880e-5c973c6f5949",
+        "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "Unknown",
+        "id": "66a9198d-4af2-4efb-b4f2-123ac7d86915",
+        "tags": ["Windows", "Stealer"]
     }
 ]
