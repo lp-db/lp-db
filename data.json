@@ -2253,5 +2253,10 @@
         "name": "Unknown",
         "id": "66a9198d-4af2-4efb-b4f2-123ac7d86915",
         "tags": ["Windows", "Stealer"]
+    },
+    {
+        "name": "SimpleLoader",
+        "id": "2605b505-a8a1-49b8-ac05-7ce34ef354f4",
+        "tags": ["Windows", "Loader"]
     }
 ]
